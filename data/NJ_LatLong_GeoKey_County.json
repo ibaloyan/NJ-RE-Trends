@@ -1,0 +1,197 @@
+{
+  "response": {
+    "inputparameter": {
+      "package": "lookup",
+      "resource": "county",
+      "service": "Area",
+      "StateId": "ST34"
+    },
+    "result": {
+      "package": {
+        "descr": "This lookup returns all the Counties that are in a particular state. The State ID is required. The two-digit FIPS code or the two-letter abbreviation can be used for the State ID.",
+        "item": [
+          {
+            "geo_center_latitude": "39.4693540000",
+            "geo_center_longitude": "-74.6337580000",
+            "geo_key": "CO34001",
+            "id": "CO34001",
+            "name": "Atlantic",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.9596990000",
+            "geo_center_longitude": "-74.0747270000",
+            "geo_key": "CO34003",
+            "id": "CO34003",
+            "name": "Bergen",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.8757860000",
+            "geo_center_longitude": "-74.6630060000",
+            "geo_key": "CO34005",
+            "id": "CO34005",
+            "name": "Burlington",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.8023520000",
+            "geo_center_longitude": "-74.9612510000",
+            "geo_key": "CO34007",
+            "id": "CO34007",
+            "name": "Camden",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.0861430000",
+            "geo_center_longitude": "-74.8477160000",
+            "geo_key": "CO34009",
+            "id": "CO34009",
+            "name": "Cape May",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.3284340000",
+            "geo_center_longitude": "-75.1216280000",
+            "geo_key": "CO34011",
+            "id": "CO34011",
+            "name": "Cumberland",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.7874000000",
+            "geo_center_longitude": "-74.2462920000",
+            "geo_key": "CO34013",
+            "id": "CO34013",
+            "name": "Essex",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.7228750000",
+            "geo_center_longitude": "-75.1456790000",
+            "geo_key": "CO34015",
+            "id": "CO34015",
+            "name": "Gloucester",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.7313750000",
+            "geo_center_longitude": "-74.0786010000",
+            "geo_key": "CO34017",
+            "id": "CO34017",
+            "name": "Hudson",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.5652830000",
+            "geo_center_longitude": "-74.9119690000",
+            "geo_key": "CO34019",
+            "id": "CO34019",
+            "name": "Hunterdon",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.2825030000",
+            "geo_center_longitude": "-74.7037240000",
+            "geo_key": "CO34021",
+            "id": "CO34021",
+            "name": "Mercer",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.4396130000",
+            "geo_center_longitude": "-74.4075790000",
+            "geo_key": "CO34023",
+            "id": "CO34023",
+            "name": "Middlesex",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.2870480000",
+            "geo_center_longitude": "-74.1524460000",
+            "geo_key": "CO34025",
+            "id": "CO34025",
+            "name": "Monmouth",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.8585810000",
+            "geo_center_longitude": "-74.5474270000",
+            "geo_key": "CO34027",
+            "id": "CO34027",
+            "name": "Morris",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.8656690000",
+            "geo_center_longitude": "-74.2588640000",
+            "geo_key": "CO34029",
+            "id": "CO34029",
+            "name": "Ocean",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "41.0378900000",
+            "geo_center_longitude": "-74.2982800000",
+            "geo_key": "CO34031",
+            "id": "CO34031",
+            "name": "Passaic",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "39.5738280000",
+            "geo_center_longitude": "-75.3573560000",
+            "geo_key": "CO34033",
+            "id": "CO34033",
+            "name": "Salem",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.5655270000",
+            "geo_center_longitude": "-74.6199380000",
+            "geo_key": "CO34035",
+            "id": "CO34035",
+            "name": "Somerset",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "41.1374610000",
+            "geo_center_longitude": "-74.6919140000",
+            "geo_key": "CO34037",
+            "id": "CO34037",
+            "name": "Sussex",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.6598710000",
+            "geo_center_longitude": "-74.3086960000",
+            "geo_key": "CO34039",
+            "id": "CO34039",
+            "name": "Union",
+            "type": "CO"
+          },
+          {
+            "geo_center_latitude": "40.8534910000",
+            "geo_center_longitude": "-75.0094980000",
+            "geo_key": "CO34041",
+            "id": "CO34041",
+            "name": "Warren",
+            "type": "CO"
+          }
+        ],
+        "name": "Lookup",
+        "notice": "",
+        "resource": "County",
+        "service": "Area",
+        "version": "2.0"
+      },
+      "xml_record": "21"
+    },
+    "status": {
+      "code": "0",
+      "long_description": "Your request was successfully processed.",
+      "short_description": "Success"
+    },
+    "xmlns": "https://search.onboard-apis.com/xmlns/areaapi/v2.0.0"
+  }
+}
