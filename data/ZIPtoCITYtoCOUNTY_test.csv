@@ -1,0 +1,740 @@
+,Zip Code,City,County
+0,07001,Avenel,Middlesex
+1,07002,Bayonne,Hudson
+2,07003,Bloomfield,Essex
+3,07004,Fairfield,Essex
+4,07005,Boonton,Morris
+5,07006,Caldwell,Essex
+6,07007,Caldwell,Essex
+7,07008,Carteret,Middlesex
+8,07009,Cedar Grove,Essex
+9,07010,Cliffside Park,Bergen
+10,07011,Clifton,Passaic
+11,07012,Clifton,Passaic
+12,07013,Clifton,Passaic
+13,07014,Clifton,Passaic
+14,07015,Clifton,Passaic
+15,07016,Cranford,Union
+16,07017,East Orange,Essex
+17,07018,East Orange,Essex
+18,07019,East Orange,Essex
+19,07020,Edgewater,Bergen
+20,07021,Essex Fells,Essex
+21,07022,Fairview,Bergen
+22,07023,Fanwood,Union
+23,07024,Fort Lee,Bergen
+24,07026,Garfield,Bergen
+25,07027,Garwood,Union
+26,07028,Glen Ridge,Essex
+27,07029,Harrison,Hudson
+28,07030,Hoboken,Hudson
+29,07031,North Arlington,Bergen
+30,07032,Kearny,Hudson
+31,07033,Kenilworth,Union
+32,07034,Lake Hiawatha,Morris
+33,07035,Lincoln Park,Morris
+34,07036,Linden,Union
+35,07039,Livingston,Essex
+36,07040,Maplewood,Essex
+37,07041,Millburn,Essex
+38,07042,Montclair,Essex
+39,07043,Montclair,Essex
+40,07044,Verona,Essex
+41,07045,Montville,Morris
+42,07046,Mountain Lakes,Morris
+43,07047,North Bergen,Hudson
+44,07050,Orange,Essex
+45,07051,Orange,Essex
+46,07052,West Orange,Essex
+47,07054,Parsippany,Morris
+48,07055,Passaic,Passaic
+49,07057,Wallington,Bergen
+50,07058,Pine Brook,Morris
+51,07059,Warren,Somerset
+52,07060,Plainfield,Union
+53,07061,Plainfield,Union
+54,07062,Plainfield,Union
+55,07063,Plainfield,Union
+56,07064,Port Reading,Middlesex
+57,07065,Rahway,Union
+58,07066,Clark,Union
+59,07067,Colonia,Middlesex
+60,07068,Roseland,Essex
+61,07069,Watchung,Somerset
+62,07070,Rutherford,Bergen
+63,07071,Lyndhurst,Bergen
+64,07072,Carlstadt,Bergen
+65,07073,East Rutherford,Bergen
+66,07074,Moonachie,Bergen
+67,07075,Wood Ridge,Bergen
+68,07076,Scotch Plains,Union
+69,07077,Sewaren,Middlesex
+70,07078,Short Hills,Essex
+71,07079,South Orange,Essex
+72,07080,South Plainfield,Middlesex
+73,07081,Springfield,Union
+74,07082,Towaco,Morris
+75,07083,Union,Union
+76,07086,Weehawken,Hudson
+77,07087,Union City,Hudson
+78,07088,Vauxhall,Union
+79,07090,Westfield,Union
+80,07091,Westfield,Union
+81,07092,Mountainside,Union
+82,07093,West New York,Hudson
+83,07094,Secaucus,Hudson
+84,07095,Woodbridge,Middlesex
+85,07096,Secaucus,Hudson
+86,07097,Jersey City,Hudson
+87,07099,Kearny,Hudson
+88,07101,Newark,Essex
+89,07102,Newark,Essex
+90,07103,Newark,Essex
+91,07104,Newark,Essex
+92,07105,Newark,Essex
+93,07106,Newark,Essex
+94,07107,Newark,Essex
+95,07108,Newark,Essex
+96,07109,Belleville,Essex
+97,07110,Nutley,Essex
+98,07111,Irvington,Essex
+99,07112,Newark,Essex
+100,07114,Newark,Essex
+101,07175,Newark,Essex
+102,07182,Newark,Essex
+103,07184,Newark,Essex
+104,07188,Newark,Essex
+105,07189,Newark,Essex
+106,07191,Newark,Essex
+107,07192,Newark,Essex
+108,07193,Newark,Essex
+109,07194,Newark,Essex
+110,07195,Newark,Essex
+111,07198,Newark,Essex
+112,07199,Newark,Essex
+113,07201,Elizabeth,Union
+114,07202,Elizabeth,Union
+115,07203,Roselle,Union
+116,07204,Roselle Park,Union
+117,07205,Hillside,Union
+118,07206,Elizabeth,Union
+119,07207,Elizabeth,Union
+120,07208,Elizabeth,Union
+121,07302,Jersey City,Hudson
+122,07303,Jersey City,Hudson
+123,07304,Jersey City,Hudson
+124,07305,Jersey City,Hudson
+125,07306,Jersey City,Hudson
+126,07307,Jersey City,Hudson
+127,07308,Jersey City,Hudson
+128,07309,Jersey City,Hudson
+129,07310,Jersey City,Hudson
+130,07311,Jersey City,Hudson
+131,07395,Jersey City,Hudson
+132,07399,Jersey City,Hudson
+133,07401,Allendale,Bergen
+134,07403,Bloomingdale,Passaic
+135,07405,Butler,Morris
+136,07407,Elmwood Park,Bergen
+137,07410,Fair Lawn,Bergen
+138,07416,Franklin,Sussex
+139,07417,Franklin Lakes,Bergen
+140,07418,Glenwood,Sussex
+141,07419,Hamburg,Sussex
+142,07420,Haskell,Passaic
+143,07421,Hewitt,Passaic
+144,07422,Highland Lakes,Sussex
+145,07423,Ho Ho Kus,Bergen
+146,07424,Little Falls,Passaic
+147,07428,Mc Afee,Sussex
+148,07430,Mahwah,Bergen
+149,07432,Midland Park,Bergen
+150,07435,Newfoundland,Passaic
+151,07436,Oakland,Bergen
+152,07438,Oak Ridge,Passaic
+153,07439,Ogdensburg,Sussex
+154,07440,Pequannock,Morris
+155,07442,Pompton Lakes,Passaic
+156,07444,Pompton Plains,Morris
+157,07446,Ramsey,Bergen
+158,07450,Ridgewood,Bergen
+159,07451,Ridgewood,Bergen
+160,07452,Glen Rock,Bergen
+161,07456,Ringwood,Passaic
+162,07457,Riverdale,Morris
+163,07458,Saddle River,Bergen
+164,07460,Stockholm,Sussex
+165,07461,Sussex,Sussex
+166,07462,Vernon,Sussex
+167,07463,Waldwick,Bergen
+168,07465,Wanaque,Passaic
+169,07470,Wayne,Passaic
+170,07474,Wayne,Passaic
+171,07477,Wayne,Passaic
+172,07480,West Milford,Passaic
+173,07481,Wyckoff,Bergen
+174,07495,Mahwah,Bergen
+175,07501,Paterson,Passaic
+176,07502,Paterson,Passaic
+177,07503,Paterson,Passaic
+178,07504,Paterson,Passaic
+179,07505,Paterson,Passaic
+180,07506,Hawthorne,Passaic
+181,07507,Hawthorne,Passaic
+182,07508,Haledon,Passaic
+183,07509,Paterson,Passaic
+184,07510,Paterson,Passaic
+185,07511,Totowa,Passaic
+186,07512,Totowa,Passaic
+187,07513,Paterson,Passaic
+188,07514,Paterson,Passaic
+189,07522,Paterson,Passaic
+190,07524,Paterson,Passaic
+191,07533,Paterson,Passaic
+192,07538,Haledon,Passaic
+193,07543,Paterson,Passaic
+194,07544,Paterson,Passaic
+195,07601,Hackensack,Bergen
+196,07602,Hackensack,Bergen
+197,07603,Bogota,Bergen
+198,07604,Hasbrouck Heights,Bergen
+199,07605,Leonia,Bergen
+200,07606,South Hackensack,Bergen
+201,07607,Maywood,Bergen
+202,07608,Teterboro,Bergen
+203,07620,Alpine,Bergen
+204,07621,Bergenfield,Bergen
+205,07624,Closter,Bergen
+206,07626,Cresskill,Bergen
+207,07627,Demarest,Bergen
+208,07628,Dumont,Bergen
+209,07630,Emerson,Bergen
+210,07631,Englewood,Bergen
+211,07632,Englewood Cliffs,Bergen
+212,07640,Harrington Park,Bergen
+213,07641,Haworth,Bergen
+214,07642,Hillsdale,Bergen
+215,07643,Little Ferry,Bergen
+216,07644,Lodi,Bergen
+217,07645,Montvale,Bergen
+218,07646,New Milford,Bergen
+219,07647,Northvale,Bergen
+220,07648,Norwood,Bergen
+221,07649,Oradell,Bergen
+222,07650,Palisades Park,Bergen
+223,07652,Paramus,Bergen
+224,07653,Paramus,Bergen
+225,07656,Park Ridge,Bergen
+226,07657,Ridgefield,Bergen
+227,07660,Ridgefield Park,Bergen
+228,07661,River Edge,Bergen
+229,07662,Rochelle Park,Bergen
+230,07663,Saddle Brook,Bergen
+231,07666,Teaneck,Bergen
+232,07670,Tenafly,Bergen
+233,07675,Westwood,Bergen
+234,07676,Township Of Washington,Bergen
+235,07677,Woodcliff Lake,Bergen
+236,07699,Teterboro,Bergen
+237,07701,Red Bank,Monmouth
+238,07702,Shrewsbury,Monmouth
+239,07703,Fort Monmouth,Monmouth
+240,07704,Fair Haven,Monmouth
+241,07709,Red Bank,Monmouth
+242,07710,Adelphia,Monmouth
+243,07711,Allenhurst,Monmouth
+244,07712,Asbury Park,Monmouth
+245,07715,Belmar,Monmouth
+246,07716,Atlantic Highlands,Monmouth
+247,07717,Avon By The Sea,Monmouth
+248,07718,Belford,Monmouth
+249,07719,Belmar,Monmouth
+250,07720,Bradley Beach,Monmouth
+251,07721,Cliffwood,Monmouth
+252,07722,Colts Neck,Monmouth
+253,07723,Deal,Monmouth
+254,07724,Eatontown,Monmouth
+255,07726,Englishtown,Monmouth
+256,07727,Farmingdale,Monmouth
+257,07728,Freehold,Monmouth
+258,07730,Hazlet,Monmouth
+259,07731,Howell,Monmouth
+260,07732,Highlands,Monmouth
+261,07733,Holmdel,Monmouth
+262,07734,Keansburg,Monmouth
+263,07735,Keyport,Monmouth
+264,07737,Leonardo,Monmouth
+265,07738,Lincroft,Monmouth
+266,07739,Little Silver,Monmouth
+267,07740,Long Branch,Monmouth
+268,07746,Marlboro,Monmouth
+269,07747,Matawan,Monmouth
+270,07748,Middletown,Monmouth
+271,07750,Monmouth Beach,Monmouth
+272,07751,Morganville,Monmouth
+273,07752,Navesink,Monmouth
+274,07753,Neptune,Monmouth
+275,07754,Neptune,Monmouth
+276,07755,Oakhurst,Monmouth
+277,07756,Ocean Grove,Monmouth
+278,07757,Oceanport,Monmouth
+279,07758,Port Monmouth,Monmouth
+280,07760,Rumson,Monmouth
+281,07762,Spring Lake,Monmouth
+282,07763,Tennent,Monmouth
+283,07764,West Long Branch,Monmouth
+284,07765,Wickatunk,Monmouth
+285,07777,Holmdel,Monmouth
+286,07799,Eatontown,Monmouth
+287,07801,Dover,Morris
+288,07802,Dover,Morris
+289,07803,Mine Hill,Morris
+290,07806,Picatinny Arsenal,Morris
+291,07820,Allamuchy,Warren
+292,07821,Andover,Sussex
+293,07822,Augusta,Sussex
+294,07823,Belvidere,Warren
+295,07825,Blairstown,Warren
+296,07826,Branchville,Sussex
+297,07827,Montague,Sussex
+298,07828,Budd Lake,Morris
+299,07829,Buttzville,Warren
+300,07830,Califon,Hunterdon
+301,07831,Changewater,Warren
+302,07832,Columbia,Warren
+303,07833,Delaware,Warren
+304,07834,Denville,Morris
+305,07836,Flanders,Morris
+306,07837,Glasser,Sussex
+307,07838,Great Meadows,Warren
+308,07839,Greendell,Sussex
+309,07840,Hackettstown,Warren
+310,07842,Hibernia,Morris
+311,07843,Hopatcong,Sussex
+312,07844,Hope,Warren
+313,07845,Ironia,Morris
+314,07846,Johnsonburg,Warren
+315,07847,Kenvil,Morris
+316,07848,Lafayette,Sussex
+317,07849,Lake Hopatcong,Morris
+318,07850,Landing,Morris
+319,07851,Layton,Sussex
+320,07852,Ledgewood,Morris
+321,07853,Long Valley,Morris
+322,07855,Middleville,Sussex
+323,07856,Mount Arlington,Morris
+324,07857,Netcong,Morris
+325,07860,Newton,Sussex
+326,07863,Oxford,Warren
+327,07865,Port Murray,Warren
+328,07866,Rockaway,Morris
+329,07869,Randolph,Morris
+330,07870,Schooleys Mountain,Morris
+331,07871,Sparta,Sussex
+332,07874,Stanhope,Sussex
+333,07875,Stillwater,Sussex
+334,07876,Succasunna,Morris
+335,07877,Swartswood,Sussex
+336,07878,Mount Tabor,Morris
+337,07879,Tranquility,Sussex
+338,07880,Vienna,Warren
+339,07881,Wallpack Center,Sussex
+340,07882,Washington,Warren
+341,07885,Wharton,Morris
+342,07890,Branchville,Sussex
+343,07901,Summit,Union
+344,07902,Summit,Union
+345,07920,Basking Ridge,Somerset
+346,07921,Bedminster,Somerset
+347,07922,Berkeley Heights,Union
+348,07924,Bernardsville,Somerset
+349,07926,Brookside,Morris
+350,07927,Cedar Knolls,Morris
+351,07928,Chatham,Morris
+352,07930,Chester,Morris
+353,07931,Far Hills,Somerset
+354,07932,Florham Park,Morris
+355,07933,Gillette,Morris
+356,07934,Gladstone,Somerset
+357,07935,Green Village,Morris
+358,07936,East Hanover,Morris
+359,07938,Liberty Corner,Somerset
+360,07939,Lyons,Somerset
+361,07940,Madison,Morris
+362,07945,Mendham,Morris
+363,07946,Millington,Morris
+364,07950,Greystone Park,Morris
+365,07950,Morris Plains,Morris
+366,07960,Morristown,Morris
+367,07961,Morristown,Morris
+368,07962,Morristown,Morris
+369,07963,Morristown,Morris
+370,07970,Mount Freedom,Morris
+371,07974,New Providence,Union
+372,07976,New Vernon,Morris
+373,07977,Peapack,Somerset
+374,07978,Pluckemin,Somerset
+375,07979,Pottersville,Hunterdon
+376,07980,Stirling,Morris
+377,07981,Whippany,Morris
+378,07983,Whippany,Morris
+379,07999,Whippany,Morris
+380,08001,Alloway,Salem
+381,08002,Cherry Hill,Camden
+382,08003,Cherry Hill,Camden
+383,08004,Atco,Camden
+384,08005,Barnegat,Ocean
+385,08006,Barnegat Light,Ocean
+386,08007,Barrington,Camden
+387,08008,Beach Haven,Ocean
+388,08009,Berlin,Camden
+389,08010,Beverly,Burlington
+390,08011,Birmingham,Burlington
+391,08012,Blackwood,Camden
+392,08014,Bridgeport,Gloucester
+393,08015,Browns Mills,Burlington
+394,08016,Burlington,Burlington
+395,08018,Cedar Brook,Camden
+396,08019,Chatsworth,Burlington
+397,08020,Clarksboro,Gloucester
+398,08021,Clementon,Camden
+399,08022,Columbus,Burlington
+400,08023,Deepwater,Salem
+401,08025,Ewan,Gloucester
+402,08026,Gibbsboro,Camden
+403,08027,Gibbstown,Gloucester
+404,08028,Glassboro,Gloucester
+405,08029,Glendora,Camden
+406,08030,Gloucester City,Camden
+407,08031,Bellmawr,Camden
+408,08032,Grenloch,Gloucester
+409,08033,Haddonfield,Camden
+410,08034,Cherry Hill,Camden
+411,08035,Haddon Heights,Camden
+412,08036,Hainesport,Burlington
+413,08037,Hammonton,Atlantic
+414,08038,Hancocks Bridge,Salem
+415,08039,Harrisonville,Gloucester
+416,08041,Jobstown,Burlington
+417,08042,Juliustown,Burlington
+418,08043,Voorhees,Camden
+419,08045,Lawnside,Camden
+420,08046,Willingboro,Burlington
+421,08048,Lumberton,Burlington
+422,08049,Magnolia,Camden
+423,08050,Manahawkin,Ocean
+424,08051,Mantua,Gloucester
+425,08052,Maple Shade,Burlington
+426,08053,Marlton,Burlington
+427,08054,Mount Laurel,Burlington
+428,08055,Medford,Burlington
+429,08056,Mickleton,Gloucester
+430,08057,Moorestown,Burlington
+431,08059,Mount Ephraim,Camden
+432,08060,Mount Holly,Burlington
+433,08061,Mount Royal,Gloucester
+434,08062,Mullica Hill,Gloucester
+435,08063,National Park,Gloucester
+436,08064,New Lisbon,Burlington
+437,08065,Palmyra,Burlington
+438,08066,Paulsboro,Gloucester
+439,08067,Pedricktown,Salem
+440,08068,Pemberton,Burlington
+441,08069,Penns Grove,Salem
+442,08070,Pennsville,Salem
+443,08071,Pitman,Gloucester
+444,08072,Quinton,Salem
+445,08073,Rancocas,Burlington
+446,08074,Richwood,Gloucester
+447,08075,Riverside,Burlington
+448,08076,Riverton,Burlington
+449,08077,Riverton,Burlington
+450,08078,Runnemede,Camden
+451,08079,Salem,Salem
+452,08080,Sewell,Gloucester
+453,08081,Sicklerville,Camden
+454,08083,Somerdale,Camden
+455,08084,Stratford,Camden
+456,08085,Swedesboro,Gloucester
+457,08086,Thorofare,Gloucester
+458,08087,Tuckerton,Ocean
+459,08088,Vincentown,Burlington
+460,08089,Waterford Works,Camden
+461,08090,Wenonah,Gloucester
+462,08091,West Berlin,Camden
+463,08092,West Creek,Ocean
+464,08093,Westville,Gloucester
+465,08094,Williamstown,Gloucester
+466,08095,Winslow,Camden
+467,08096,Deptford,Gloucester
+468,08096,Woodbury,Gloucester
+469,08097,Woodbury Heights,Gloucester
+470,08098,Woodstown,Salem
+471,08099,Bellmawr,Camden
+472,08101,Camden,Camden
+473,08102,Camden,Camden
+474,08103,Camden,Camden
+475,08104,Camden,Camden
+476,08104,Haddon Township,Camden
+477,08105,Camden,Camden
+478,08106,Audubon,Camden
+479,08107,Haddon Township,Camden
+480,08107,Oaklyn,Camden
+481,08108,Collingswood,Camden
+482,08108,Haddon Township,Camden
+483,08109,Merchantville,Camden
+484,08110,Pennsauken,Camden
+485,08201,Absecon,Atlantic
+486,08202,Avalon,Cape May
+487,08203,Brigantine,Atlantic
+488,08204,Cape May,Cape May
+489,08205,Absecon,Atlantic
+490,08210,Cape May Court House,Cape May
+491,08212,Cape May Point,Cape May
+492,08213,Cologne,Atlantic
+493,08214,Dennisville,Cape May
+494,08215,Egg Harbor City,Atlantic
+495,08217,Elwood,Atlantic
+496,08218,Goshen,Cape May
+497,08219,Green Creek,Cape May
+498,08220,Leeds Point,Atlantic
+499,08221,Linwood,Atlantic
+500,08223,Marmora,Cape May
+501,08224,New Gretna,Burlington
+502,08225,Northfield,Atlantic
+503,08226,Ocean City,Cape May
+504,08230,Ocean View,Cape May
+505,08231,Oceanville,Atlantic
+506,08232,Pleasantville,Atlantic
+507,08234,Egg Harbor Township,Atlantic
+508,08240,Pomona,Atlantic
+509,08241,Port Republic,Atlantic
+510,08242,Rio Grande,Cape May
+511,08243,Sea Isle City,Cape May
+512,08244,Somers Point,Atlantic
+513,08245,South Dennis,Cape May
+514,08246,South Seaville,Cape May
+515,08247,Stone Harbor,Cape May
+516,08248,Strathmere,Cape May
+517,08250,Tuckahoe,Cape May
+518,08251,Villas,Cape May
+519,08252,Whitesboro,Cape May
+520,08260,Wildwood,Cape May
+521,08270,Woodbine,Cape May
+522,08302,Bridgeton,Cumberland
+523,08310,Buena,Atlantic
+524,08311,Cedarville,Cumberland
+525,08312,Clayton,Gloucester
+526,08313,Deerfield Street,Cumberland
+527,08314,Delmont,Cumberland
+528,08315,Dividing Creek,Cumberland
+529,08316,Dorchester,Cumberland
+530,08317,Dorothy,Atlantic
+531,08318,Elmer,Salem
+532,08319,Estell Manor,Atlantic
+533,08320,Fairton,Cumberland
+534,08321,Fortescue,Cumberland
+535,08322,Franklinville,Gloucester
+536,08323,Greenwich,Cumberland
+537,08324,Heislerville,Cumberland
+538,08326,Landisville,Atlantic
+539,08327,Leesburg,Cumberland
+540,08328,Malaga,Gloucester
+541,08329,Mauricetown,Cumberland
+542,08330,Mays Landing,Atlantic
+543,08332,Millville,Cumberland
+544,08340,Milmay,Atlantic
+545,08341,Minotola,Atlantic
+546,08342,Mizpah,Atlantic
+547,08343,Monroeville,Salem
+548,08344,Newfield,Gloucester
+549,08345,Newport,Cumberland
+550,08346,Newtonville,Atlantic
+551,08347,Norma,Salem
+552,08348,Port Elizabeth,Cumberland
+553,08349,Port Norris,Cumberland
+554,08350,Richland,Atlantic
+555,08352,Rosenhayn,Cumberland
+556,08353,Shiloh,Cumberland
+557,08360,Vineland,Cumberland
+558,08361,Vineland,Cumberland
+559,08362,Vineland,Cumberland
+560,08401,Atlantic City,Atlantic
+561,08402,Margate City,Atlantic
+562,08403,Longport,Atlantic
+563,08404,Atlantic City,Atlantic
+564,08405,Atlantic City,Atlantic
+565,08406,Ventnor City,Atlantic
+566,08501,Allentown,Monmouth
+567,08502,Belle Mead,Somerset
+568,08504,Blawenburg,Somerset
+569,08505,Bordentown,Burlington
+570,08510,Millstone Township,Monmouth
+571,08511,Cookstown,Burlington
+572,08512,Cranbury,Middlesex
+573,08514,Cream Ridge,Monmouth
+574,08515,Chesterfield,Burlington
+575,08518,Florence,Burlington
+576,08520,Hightstown,Mercer
+577,08525,Hopewell,Mercer
+578,08526,Imlaystown,Monmouth
+579,08527,Jackson,Ocean
+580,08528,Kingston,Somerset
+581,08530,Lambertville,Hunterdon
+582,08533,New Egypt,Ocean
+583,08534,Pennington,Mercer
+584,08535,Perrineville,Monmouth
+585,08536,Plainsboro,Middlesex
+586,08540,Princeton,Mercer
+587,08541,Princeton,Mercer
+588,08542,Princeton,Mercer
+589,08543,Princeton,Mercer
+590,08544,Princeton,Mercer
+591,08550,Princeton Junction,Mercer
+592,08551,Ringoes,Hunterdon
+593,08553,Rocky Hill,Somerset
+594,08554,Roebling,Burlington
+595,08555,Roosevelt,Monmouth
+596,08556,Rosemont,Hunterdon
+597,08557,Sergeantsville,Hunterdon
+598,08558,Skillman,Somerset
+599,08559,Stockton,Hunterdon
+600,08560,Titusville,Mercer
+601,08561,Windsor,Mercer
+602,08562,Wrightstown,Burlington
+603,08601,Trenton,Mercer
+604,08602,Trenton,Mercer
+605,08603,Trenton,Mercer
+606,08604,Trenton,Mercer
+607,08605,Trenton,Mercer
+608,08606,Trenton,Mercer
+609,08607,Trenton,Mercer
+610,08608,Trenton,Mercer
+611,08609,Trenton,Mercer
+612,08610,Trenton,Mercer
+613,08611,Trenton,Mercer
+614,08618,Trenton,Mercer
+615,08619,Trenton,Mercer
+616,08620,Trenton,Mercer
+617,08625,Trenton,Mercer
+618,08628,Trenton,Mercer
+619,08629,Trenton,Mercer
+620,08638,Trenton,Mercer
+621,08640,Fort Dix,Burlington
+622,08641,Trenton,Burlington
+623,08645,Trenton,Mercer
+624,08646,Trenton,Mercer
+625,08647,Trenton,Mercer
+626,08648,Trenton,Mercer
+627,08650,Trenton,Mercer
+628,08666,Trenton,Mercer
+629,08677,Trenton,Mercer
+630,08690,Trenton,Mercer
+631,08691,Trenton,Mercer
+632,08695,Trenton,Mercer
+633,08701,Lakewood,Ocean
+634,08720,Allenwood,Monmouth
+635,08721,Bayville,Ocean
+636,08722,Beachwood,Ocean
+637,08723,Brick,Ocean
+638,08724,Brick,Ocean
+639,08730,Brielle,Monmouth
+640,08731,Forked River,Ocean
+641,08732,Island Heights,Ocean
+642,08733,Lakehurst,Ocean
+643,08734,Lanoka Harbor,Ocean
+644,08735,Lavallette,Ocean
+645,08736,Manasquan,Monmouth
+646,08738,Mantoloking,Ocean
+647,08739,Normandy Beach,Ocean
+648,08740,Ocean Gate,Ocean
+649,08741,Pine Beach,Ocean
+650,08742,Point Pleasant Beach,Ocean
+651,08750,Sea Girt,Monmouth
+652,08751,Seaside Heights,Ocean
+653,08752,Seaside Park,Ocean
+654,08753,Toms River,Ocean
+655,08754,Toms River,Ocean
+656,08755,Toms River,Ocean
+657,08756,Toms River,Ocean
+658,08757,Toms River,Ocean
+659,08758,Waretown,Ocean
+660,08759,Manchester Township,Ocean
+661,08801,Annandale,Hunterdon
+662,08802,Asbury,Hunterdon
+663,08803,Baptistown,Hunterdon
+664,08804,Bloomsbury,Hunterdon
+665,08805,Bound Brook,Somerset
+666,08807,Bridgewater,Somerset
+667,08808,Broadway,Warren
+668,08809,Clinton,Hunterdon
+669,08810,Dayton,Middlesex
+670,08812,Dunellen,Middlesex
+671,08816,East Brunswick,Middlesex
+672,08817,Edison,Middlesex
+673,08818,Edison,Middlesex
+674,08820,Edison,Middlesex
+675,08821,Flagtown,Somerset
+676,08822,Flemington,Hunterdon
+677,08823,Franklin Park,Somerset
+678,08824,Kendall Park,Middlesex
+679,08825,Frenchtown,Hunterdon
+680,08826,Glen Gardner,Hunterdon
+681,08827,Hampton,Hunterdon
+682,08828,Helmetta,Middlesex
+683,08829,High Bridge,Hunterdon
+684,08830,Iselin,Middlesex
+685,08831,Monroe Township,Middlesex
+686,08832,Keasbey,Middlesex
+687,08833,Lebanon,Hunterdon
+688,08834,Little York,Hunterdon
+689,08835,Manville,Somerset
+690,08836,Martinsville,Somerset
+691,08837,Edison,Middlesex
+692,08840,Metuchen,Middlesex
+693,08844,Hillsborough,Somerset
+694,08846,Middlesex,Middlesex
+695,08848,Milford,Hunterdon
+696,08850,Milltown,Middlesex
+697,08852,Monmouth Junction,Middlesex
+698,08853,Neshanic Station,Somerset
+699,08854,Piscataway,Middlesex
+700,08855,Piscataway,Middlesex
+701,08857,Old Bridge,Middlesex
+702,08858,Oldwick,Hunterdon
+703,08859,Parlin,Middlesex
+704,08861,Perth Amboy,Middlesex
+705,08862,Perth Amboy,Middlesex
+706,08863,Fords,Middlesex
+707,08865,Phillipsburg,Warren
+708,08867,Pittstown,Hunterdon
+709,08868,Quakertown,Hunterdon
+710,08869,Raritan,Somerset
+711,08870,Readington,Hunterdon
+712,08871,Sayreville,Middlesex
+713,08872,Sayreville,Middlesex
+714,08873,Somerset,Somerset
+715,08875,Somerset,Somerset
+716,08876,Somerville,Somerset
+717,08879,South Amboy,Middlesex
+718,08880,South Bound Brook,Somerset
+719,08882,South River,Middlesex
+720,08884,Spotswood,Middlesex
+721,08885,Stanton,Hunterdon
+722,08886,Stewartsville,Warren
+723,08887,Three Bridges,Hunterdon
+724,08888,Whitehouse,Hunterdon
+725,08889,Whitehouse Station,Hunterdon
+726,08890,Zarephath,Somerset
+727,08896,Raritan,Somerset
+728,08899,Edison,Middlesex
+729,08901,New Brunswick,Middlesex
+730,08902,North Brunswick,Middlesex
+731,08903,New Brunswick,Middlesex
+732,08904,Highland Park,Middlesex
+733,08905,New Brunswick,Middlesex
+734,08906,New Brunswick,Middlesex
+735,08922,New Brunswick,Middlesex
+736,08933,New Brunswick,Middlesex
+737,08988,New Brunswick,Middlesex
+738,08989,New Brunswick,Middlesex
