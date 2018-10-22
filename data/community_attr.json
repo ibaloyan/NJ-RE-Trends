@@ -1,0 +1,2350 @@
+{
+  "response": {
+    "inputparameter": {
+      "package": "lookup",
+      "resource": "attribute",
+      "service": "Community"
+    },
+    "result": {
+      "package": {
+        "descr": "To be documented...",
+        "item": [
+          {
+            "descr": "Uniquely identifies each record.",
+            "id": "1",
+            "name": "OB_ID",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Identifies the geography level of the record: ZI = Zip Code, PL = Place, CO = County, ST = State, US = national, TR = tract, NH = neighborhood. *Note:  Only those geography levels you have licensed will appear in the data.",
+            "id": "2",
+            "name": "GEO_TYPE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Uniquely identifies each record by combining the GEO_TYPE and GEO_CODE values.",
+            "id": "3",
+            "name": "GEO_KEY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Numeric identify for the geography.Ê Often the federal identification code, but may be a unique value assigned by OBI.Ê This value is unique by GEO_TYPE (but not across GEO_TYPEs).",
+            "id": "4",
+            "name": "GEO_CODE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Standard non Onboard specific geography name.",
+            "id": "5",
+            "name": "NAME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Three digit county FIPS code.  May be used for matching to other data sets.",
+            "id": "6",
+            "name": "COUNTY3",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The FIPS County Number *Note: Only populated for GEO_TYPE “ZI”, “PL”, “TR” and “CO” records.",
+            "id": "7",
+            "name": "COUNTY5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "County name *Note: Only populated for GEO_TYPE “ZI”, “PL”, “TR” and “CO” records.",
+            "id": "8",
+            "name": "COUNTYNAME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The FIPS State Number *Note:  Value “00” = National average or value.",
+            "id": "9",
+            "name": "STATE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "State name *Note:  Is null for national records (STATE = “00”).",
+            "id": "10",
+            "name": "STATENAME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Centroid latitude for the area.",
+            "id": "11",
+            "name": "LATITUDE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Centroid longitude for the area.",
+            "id": "12",
+            "name": "LONGITUDE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The unique identifier for the associated market. A market is usually similar in scope to a metropolitan area. Only supported in Neighborhood aggregation file.",
+            "id": "13",
+            "name": "MARKET_ID",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The name of the market that the hood is associated with. Only supported in Neighborhood aggregation file.",
+            "id": "14",
+            "name": "MARKET_NAME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 0 and 4 years of age.",
+            "id": "15",
+            "name": "AGE00_04",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 5 and 9 years of age.",
+            "id": "16",
+            "name": "AGE05_09",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 10 and 14 years of age.",
+            "id": "17",
+            "name": "AGE10_14",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 15 and 19 years of age.",
+            "id": "18",
+            "name": "AGE15_19",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 20 and 24 years of age.",
+            "id": "19",
+            "name": "AGE20_24",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 25 and 29 years of age.",
+            "id": "20",
+            "name": "AGE25_29",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 30 and 34 years of age.",
+            "id": "21",
+            "name": "AGE30_34",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 35 and 39 years of age.",
+            "id": "22",
+            "name": "AGE35_39",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 40 and 44 years of age.",
+            "id": "23",
+            "name": "AGE40_44",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 45 and 49 years of age.",
+            "id": "24",
+            "name": "AGE45_49",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 50 and 54 years of age.",
+            "id": "25",
+            "name": "AGE50_54",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 55 and 59 years of age.",
+            "id": "26",
+            "name": "AGE55_59",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 60 and 64 years of age.",
+            "id": "27",
+            "name": "AGE60_64",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 65 and 69 years of age.",
+            "id": "28",
+            "name": "AGE65_69",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 70 and 74 years of age.",
+            "id": "29",
+            "name": "AGE70_74",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 75 and 79 years of age.",
+            "id": "30",
+            "name": "AGE75_79",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area between 80 and 84 years of age.",
+            "id": "31",
+            "name": "AGE80_84",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area over 85 years of age.",
+            "id": "32",
+            "name": "AGEGT85",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half of the total population is above the listed age, half is below it.",
+            "id": "33",
+            "name": "MEDIANAGE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Median population age, 5 year forecast.",
+            "id": "34",
+            "name": "MEDIANAGEPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Median population age, 10 year forecast.",
+            "id": "35",
+            "name": "MEDIANAGEPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected average age of people living in the area; 5 year forecast.",
+            "id": "36",
+            "name": "AGEAVEPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected average age of people living in the area; 10 year forecast.",
+            "id": "37",
+            "name": "AGEAVEPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of American descent.",
+            "id": "38",
+            "name": "ANCESTAMER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of Native American descent.",
+            "id": "39",
+            "name": "ANCESTAMIND",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of Asian descent.",
+            "id": "40",
+            "name": "ANCESTASIAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of European descent.",
+            "id": "41",
+            "name": "ANCESTEURO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of Hawaiian descent.",
+            "id": "42",
+            "name": "ANCESTHAWAI",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of Hispanic descent.",
+            "id": "43",
+            "name": "ANCESTHISP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of a descent listed as Other.",
+            "id": "44",
+            "name": "ANCESTOTHER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area of an unclassified descent.",
+            "id": "45",
+            "name": "ANCESTUNCLASSIFIED",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who speak Asian and Pacific Island languages.",
+            "id": "46",
+            "name": "LANGASIAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who speak only English.",
+            "id": "47",
+            "name": "LANGENG",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who speak other European languages.",
+            "id": "48",
+            "name": "LANGEURO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who speak all other languages.",
+            "id": "49",
+            "name": "LANGOTHER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who speak Spanish.",
+            "id": "50",
+            "name": "LANGSPAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total population by language spoken",
+            "id": "51",
+            "name": "LANGTOTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is White.",
+            "id": "52",
+            "name": "RACEWHITE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is American Indian, Eskimo, or Aleut.",
+            "id": "53",
+            "name": "RACEAMERIND",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is Asian.",
+            "id": "54",
+            "name": "RACEASIAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is Black.",
+            "id": "55",
+            "name": "RACEBLACK",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is Hawaiian/Pacific Islander.",
+            "id": "56",
+            "name": "RACEHAWAI",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is of multiple types.",
+            "id": "57",
+            "name": "RACEMULTI",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area whose race is listed as Other.",
+            "id": "58",
+            "name": "RACEOTHER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who are of Hispanic origin.",
+            "id": "59",
+            "name": "RACEHISP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area who are of a Non-Hispanic origin.",
+            "id": "60",
+            "name": "RACENONHISP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total population by race.",
+            "id": "61",
+            "name": "RACETOTALPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living within the area, whose race is White, 5 year forecast.",
+            "id": "62",
+            "name": "RACEWHITEPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living within the area whose race is Asian, 5 year forecast.",
+            "id": "63",
+            "name": "RACEASIANPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living within the area whose race is Black, 5 year forecast.",
+            "id": "64",
+            "name": "RACEBLACKPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living within the area in whose race is Hispanic, 5 year forecast.",
+            "id": "65",
+            "name": "RACEHISPPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living within the area whose race is listed as Other, 5 year forecast.",
+            "id": "66",
+            "name": "RACEOTHERPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area who are currently married.",
+            "id": "67",
+            "name": "MARMARR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area who are currently divorced.",
+            "id": "68",
+            "name": "MARDIVOR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area who have never been married.",
+            "id": "69",
+            "name": "MARNEVER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area that are married but separated.",
+            "id": "70",
+            "name": "MARSEP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area who are widowed.",
+            "id": "71",
+            "name": "MARWIDOW",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total population by marriage status.",
+            "id": "72",
+            "name": "MARTOTALPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area. A household is a person or group of people who occupy a housing unit.",
+            "id": "73",
+            "name": "HHD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average size of area households in number of people",
+            "id": "74",
+            "name": "HHDAVESZ",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with one or more children.",
+            "id": "75",
+            "name": "HHDCH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of family households in the area. A family household consists of a householder and one or more other persons living in the same household who are related to the householder by birth, marriage or adoption.",
+            "id": "76",
+            "name": "HHDFAM",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with no children.",
+            "id": "77",
+            "name": "HHDNCH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A householder who shares the home with nonrelatives only; for example, with roommates or an unmarried partner.",
+            "id": "78",
+            "name": "HHDNFM",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A householder who makes provision for his or her own food or other essentials for living without combining with any other person.",
+            "id": "79",
+            "name": "HHDSINGLE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average family size for people living in the area.",
+            "id": "80",
+            "name": "FAMAVESZ",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of households in the area, high range, 5 year forecast",
+            "id": "81",
+            "name": "HHDHIGHPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of households in the area, low range, 5 year forecast",
+            "id": "82",
+            "name": "HHDLOWPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of households in the area, 5 year forecast",
+            "id": "83",
+            "name": "HHDPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of households in the area, 10 year forecast",
+            "id": "84",
+            "name": "HHDPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living in households, 5 year forecast.",
+            "id": "85",
+            "name": "HHPOPPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living in households, 10 year forecast.",
+            "id": "86",
+            "name": "HHPOPPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people per household, 5 year forecast.",
+            "id": "87",
+            "name": "HHPPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people per household, 10 year forecast.",
+            "id": "88",
+            "name": "HHPPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the people in the area under 25 years old earn less than this dollar amount, half earn more than this amount.",
+            "id": "89",
+            "name": "AIMCYLT_25",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the people in the area between the ages of 25 and 44 earn less than this dollar amount, half earn more than this amount.",
+            "id": "90",
+            "name": "AIMCY25_44",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the people in the area between the ages of 45 and 64 earn less than this dollar amount, half earn more than this amount.",
+            "id": "91",
+            "name": "AIMCY45_64",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the people in the area over the age of 65 earn less than this dollar amount, half earn more than this amount.",
+            "id": "92",
+            "name": "AIMCYGT_65",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $0 and $10,000.",
+            "id": "93",
+            "name": "HINCY00_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $10,000 and $15,000.",
+            "id": "94",
+            "name": "HINCY10_15",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $15,000 and $20,000.",
+            "id": "95",
+            "name": "HINCY15_20",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $20,000 and $25,000.",
+            "id": "96",
+            "name": "HINCY20_25",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $25,000 and $30,000.",
+            "id": "97",
+            "name": "HINCY25_30",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $30,000 and $35,000.",
+            "id": "98",
+            "name": "HINCY30_35",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $35,000 and $40,000.",
+            "id": "99",
+            "name": "HINCY35_40",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $40,000 and $45,000.",
+            "id": "100",
+            "name": "HINCY40_45",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $45,000 and $50,000.",
+            "id": "101",
+            "name": "HINCY45_50",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $50,000 and $60,000.",
+            "id": "102",
+            "name": "HINCY50_60",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $60,000 and $75,000.",
+            "id": "103",
+            "name": "HINCY60_75",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $75,000 and $100,000.",
+            "id": "104",
+            "name": "HINCY75_100",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $100,000 and $125,000.",
+            "id": "105",
+            "name": "HINCY100_125",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $125,000 and $150,000.",
+            "id": "106",
+            "name": "HINCY125_150",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $150,000 and $200,000.",
+            "id": "107",
+            "name": "HINCY150_200",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $200,000 and $250,000.",
+            "id": "108",
+            "name": "HINCY200_250",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income between $250,000 and $500,000.",
+            "id": "109",
+            "name": "HINCY250_500",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area with income above $500,000.",
+            "id": "110",
+            "name": "HINCYGT_500",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average income of households in the area.",
+            "id": "111",
+            "name": "INCCYAVEHH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half of the households have an income above the amount listed, half have an income below it.",
+            "id": "112",
+            "name": "INCCYMEDD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the households have disposable income above the amount listed; half have disposable income below it.",
+            "id": "113",
+            "name": "INCCYMEDDH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected average household income, 5 year forecast.",
+            "id": "114",
+            "name": "INCAVEHHPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average individual income of people in the area.",
+            "id": "115",
+            "name": "INCCYPCAP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Change in the dollar value of average household income, expressed as a percentage increase or decrease since 2000   If null, then there was no reliable 2000 value to compare against.",
+            "id": "116",
+            "name": "INCDIFFBASECY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Change in the dollar value of average household income, expressed as a percentage increase or decrease since 2010.",
+            "id": "117",
+            "name": "INCDIFFCURRCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected median household income, 5 year forecast.",
+            "id": "118",
+            "name": "INCMEDPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The average employee salary for people in the area.",
+            "id": "119",
+            "name": "SALAVECY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Median employee salary for people in this area.",
+            "id": "120",
+            "name": "SALMEDCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth less than $1",
+            "id": "121",
+            "name": "HHNWCYLT_0",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $1 - $4,999",
+            "id": "122",
+            "name": "HHNWCY1_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $5,000 - $9,999",
+            "id": "123",
+            "name": "HHNWCY5_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $10,000 - $24,999",
+            "id": "124",
+            "name": "HHNWCY10_25",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $25,000 - $49,999",
+            "id": "125",
+            "name": "HHNWCY25_50",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $50,000 - $99,999",
+            "id": "126",
+            "name": "HHNWCY50_100",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $100,000 - $249,999",
+            "id": "127",
+            "name": "HHNWCY100_250",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth between $250,000 - $499,999",
+            "id": "128",
+            "name": "HHNWCY250_500",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households with a net worth greater than $500,000",
+            "id": "129",
+            "name": "HHNWCYGT_500",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The average household net worth for this area.",
+            "id": "130",
+            "name": "HHNWMEANCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The median household net worth for this area.",
+            "id": "131",
+            "name": "HHNWMEDCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved an 8th grade education.",
+            "id": "132",
+            "name": "EDULTGR9",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved some high school education",
+            "id": "133",
+            "name": "EDUSHSCH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who are high school graduates.",
+            "id": "134",
+            "name": "EDUHSCH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved some college education.",
+            "id": "135",
+            "name": "EDUSCOLL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved an Associate’s Degree.",
+            "id": "136",
+            "name": "EDUASSOC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "This measure of socioeconomic status is based on the U.S. Census Bureau’s Socioeconomic Status (SES) measure with weights adjusted to more strongly reflect the educational aspect of social status (education 2:1 to income &amp; occupation).  Factors in this measure are income, educational achievement and occupation of persons within the ZIP code.  Since this measure is based on the population of an entire ZIP code, it may not reflect the nature of an individual school.",
+            "id": "137",
+            "name": "EDUINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved a Bachelor’s Degree.",
+            "id": "138",
+            "name": "EDUBACH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who achieved a Graduate Degree.",
+            "id": "139",
+            "name": "EDUGRAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total population by education.",
+            "id": "140",
+            "name": "EDUTOTALPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in arts, design, entertainment, sports and media.",
+            "id": "141",
+            "name": "OCCARTS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in business and financial operations.",
+            "id": "142",
+            "name": "OCCBFIN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in building and grounds maintenance.",
+            "id": "143",
+            "name": "OCCBGMT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed as administrative support.",
+            "id": "144",
+            "name": "OCCCLERO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in computer and mathematical occupations.",
+            "id": "145",
+            "name": "OCCCOMP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in construction and extraction occupations.",
+            "id": "146",
+            "name": "OCCCONS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in community and social service occupations.",
+            "id": "147",
+            "name": "OCCCSRV",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in education, training, and library occupations.",
+            "id": "148",
+            "name": "OCCEDUC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in architecture and engineering.",
+            "id": "149",
+            "name": "OCCENGR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in food preparation and serving.",
+            "id": "150",
+            "name": "OCCFOOD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in healthcare support occupations.",
+            "id": "151",
+            "name": "OCCHCSO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed as healthcare practitioners and in technical occupations.",
+            "id": "152",
+            "name": "OCCHCSP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in installation, maintenance and repair occupations.",
+            "id": "153",
+            "name": "OCCINSTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in legal occupations.",
+            "id": "154",
+            "name": "OCCLEGAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in military occupations.",
+            "id": "155",
+            "name": "OCCMILT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in personal care and service occupations.",
+            "id": "156",
+            "name": "OCCPCAR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in farming, forestry, and fishing.",
+            "id": "157",
+            "name": "OCCPRIM",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed as production workers.",
+            "id": "158",
+            "name": "OCCPROD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in protective services.",
+            "id": "159",
+            "name": "OCCPROT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed as sales professionals.",
+            "id": "160",
+            "name": "OCCSALPR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in life, physical and social science occupations.",
+            "id": "161",
+            "name": "OCCSCNS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in transportation occupations.",
+            "id": "162",
+            "name": "OCCTRAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed as executives, managers and administrators.",
+            "id": "163",
+            "name": "OCCYEXEC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people living in this area employed in unclassified occupations.",
+            "id": "164",
+            "name": "OCCUNCL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Blue collar occupations include: farming, forestry and fishing; handlers, equipment cleaners, helpers and laborers; machine operators, assemblers and inspectors; precision production, craft and repair; private household services; protective services; services other than protective and household; and transportation and material moving.",
+            "id": "165",
+            "name": "OCCBLUCO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "White collar workers are traditionally defined as office workers. White collar occupations include: administrative and clerical support; executive, administrative and managerial; professional specialties; sales; and technicians and related support.",
+            "id": "166",
+            "name": "OCCWHTCO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total population by occupation.",
+            "id": "167",
+            "name": "OCCTOTPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with women’s, men’s, boys and girls clothing, jewelry, footwear, dry cleaning, material for sewing clothing, patterns, etc. Index score (100=National Average)",
+            "id": "168",
+            "name": "EXPAPPAR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with cash contributions to charities, churches, child support, political organizations and other cash gifts. Index score (100=National Average)",
+            "id": "169",
+            "name": "EXPCONTRIB",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with books, supplies, college, high school, elementary school and preschool tuition. Index score (100=National Average)",
+            "id": "170",
+            "name": "EXPEDUC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with fees and admissions to clubs, movies and sporting events, cable tv and satellite services, musical instruments, video and audio equipment rental, sports, recreation and exercise equipment, toys, hobbies, playground equipment and pet supplies. Index score (100=National Average)",
+            "id": "171",
+            "name": "EXPENT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with food at home, food away from home; restaurants, catered affairs, non-alcoholic and alcoholic beverages. Index score (100=National Average)",
+            "id": "172",
+            "name": "EXPFOODBEV",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with gifts of apparel, gifts of apparel accessories, gifts of education, gifts of recreation, gifts of food and beverages, gifts of household furnishings and equipment, gifts of transportation, gifts of cash, etc. Index score (100=National Average)",
+            "id": "173",
+            "name": "EXPGIFT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with health care including: health insurance, medicare payments, medical services, prescription and non prescription drugs and medical supplies. Index score (100=National Average)",
+            "id": "174",
+            "name": "EXPHEALTH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with owned dwellings; maintenance, repairs, homeowners insurance, property management and security. Index score (100=National Average)",
+            "id": "175",
+            "name": "EXPHH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with household textiles, furniture, floor coverings, major appliances, small appliances and housewares. Index score (100=National Average)",
+            "id": "176",
+            "name": "EXPHHFURN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with household operations; in home babysitting and child care, day care, nursery and preschools. Also includes other household expenses like: housekeeping services and supplies, lawn care services, home security, pest control, appliance repair and rental as well as other household products and postage. Index score (100=National Average)",
+            "id": "177",
+            "name": "EXPHHOPS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with life, endowment, annuity and other nonhealth insurance. Index score (100=National Average)",
+            "id": "178",
+            "name": "EXPINSUR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with personal care products and services including; hair care, oral hygiene products and cosmetics. Index score (100=National Average)",
+            "id": "179",
+            "name": "EXPPERS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with magazine and newspaper subscriptions and non-subscriptions and books. Index score (100=National Average)",
+            "id": "180",
+            "name": "EXPREAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with cigarettes, tobacco products and smoking accessories. Index score (100=National Average)",
+            "id": "181",
+            "name": "EXPTOB",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with miscellaneous purchases; lotteries, legal fees, funeral expenses, dating services, bank service charges, credit card and shopping club memberships. Index score (100=National Average)",
+            "id": "182",
+            "name": "EXPMISC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected male population, 10 year forecast.",
+            "id": "222",
+            "name": "POPMALEPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living in group quarters (institutional and non-institutional), 5 year forecast.",
+            "id": "223",
+            "name": "POPGQPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with new and used vehicle purchases, vehicle finance charges, gasoline and oil, vehicle repair and maintenance, vehicle insurance, parking and tolls, public transportation and other transportation costs. Index score (100=National Average)",
+            "id": "183",
+            "name": "EXPTRANSPORT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The costs associated with utilities, fuels and public services including; natural gas, electricity, fuel oil, telephone services, water and sewerage, trash and garbage collection and septic tank cleaning. Index score (100=National Average)",
+            "id": "184",
+            "name": "EXPUTIL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average annual expenditures for food, beverages, housing, utilities, household operations, household supplies and furnishings, apparel, transportation, health care, entertainment, personal care, personal insurance, education and miscellaneous. (100=National Average)",
+            "id": "185",
+            "name": "EXPTOTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The average of the total expenses shown within an area per household as it relates to the national average. Index score (100=National Average)",
+            "id": "186",
+            "name": "IDXEXPTOTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time less than 5 minutes.",
+            "id": "187",
+            "name": "TRW0_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 5 and 10 minutes.",
+            "id": "188",
+            "name": "TRW5_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 10 and 15 minutes.",
+            "id": "189",
+            "name": "TRW10_15",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 15 and 20 minutes.",
+            "id": "190",
+            "name": "TRW15_20",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 20 and 30 minutes.",
+            "id": "191",
+            "name": "TRW20_30",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 30 and 45 minutes.",
+            "id": "192",
+            "name": "TRW30_45",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time between 45 and 60 minutes.",
+            "id": "193",
+            "name": "TRW45_60",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers in the area with a commute time greater than 60 minutes.",
+            "id": "194",
+            "name": "TRWGT_60",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The average commute time of workers living in this area.",
+            "id": "195",
+            "name": "TRWAVE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers living in the area who commute by bicycle.",
+            "id": "196",
+            "name": "TRWBYC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers living in the area who commute by carpool.",
+            "id": "197",
+            "name": "TRWCPOOL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The percentage of workers living in the area who commute as solo drivers.",
+            "id": "198",
+            "name": "TRWDRIVE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The percentage of workers living in the area who work from home.",
+            "id": "199",
+            "name": "TRWHOME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers living in the area who commute by motorcycle.",
+            "id": "200",
+            "name": "TRWMOTO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of workers living in the area who commute by other means.",
+            "id": "201",
+            "name": "TRWOTHER",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The percentage of workers living in the area who commute by train, subway, ferry, bus or taxi.",
+            "id": "202",
+            "name": "TRWPUBLIC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The percentage of workers living in the area who commute by walking.",
+            "id": "203",
+            "name": "TRWSELF",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Percent of households with one vehicle available regularly.",
+            "id": "204",
+            "name": "VPH1",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Percent of households with two or more vehicles available regularly.",
+            "id": "205",
+            "name": "VPHGT1",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Percent of households with no vehicle available regularly.",
+            "id": "206",
+            "name": "VPHNONE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area.",
+            "id": "207",
+            "name": "POPCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of females living within the area.",
+            "id": "208",
+            "name": "POPFEMALE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of males living within the area.",
+            "id": "209",
+            "name": "POPMALE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Persons per square mile.",
+            "id": "210",
+            "name": "POPDNSTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Change in population since 2000 expressed as a percentage increase or decrease. If the field is null, then there was no reliable 2000 value to compare against.",
+            "id": "211",
+            "name": "POPDIFFBASECY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Change in population since 2010 expressed as a percentage increase or decrease. If the field is null, then there was no reliable 2010 value to compare against.",
+            "id": "212",
+            "name": "POPDIFFCURRCY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in college residence halls.",
+            "id": "213",
+            "name": "POPCYGQCOLL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in military barracks.",
+            "id": "214",
+            "name": "POPCYGQMIL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected population,5 year forecast.",
+            "id": "215",
+            "name": "POPPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected population,10 year forecast.",
+            "id": "216",
+            "name": "POPPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected population, low range, 5 year forecast.",
+            "id": "217",
+            "name": "POPLOWPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected population, high range, 5 year forecast.",
+            "id": "218",
+            "name": "POPHIGHPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected female population, 5 year forecast.",
+            "id": "219",
+            "name": "POPFEMALEPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected female population, 10 year forecast.",
+            "id": "220",
+            "name": "POPFEMALEPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected male population, 10 year forecast.",
+            "id": "221",
+            "name": "POPMALEPY_5",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Projected number of people living in group quarters (institutional and non-institutional), 10 year forecast.",
+            "id": "224",
+            "name": "POPGQPY_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The daytime population in this area.",
+            "id": "225",
+            "name": "DAYPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Seasonal population for this area.",
+            "id": "226",
+            "name": "SEASONPOP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Half the dwellings in the area are older than this, half are newer.",
+            "id": "227",
+            "name": "HOUMEDAGE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of owner-occupied dwellings in the area.",
+            "id": "228",
+            "name": "DWLOWNED",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of renter-occupied dwellings in the area.",
+            "id": "229",
+            "name": "DWLRENT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of vacant dwellings in the area.",
+            "id": "230",
+            "name": "DWLVACNT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total dwellings in the area.",
+            "id": "231",
+            "name": "DWLTOTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Percentage of households in the area where the primary householder changed in the past year.",
+            "id": "232",
+            "name": "LORTURN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in administrative and support and waste management and remediation services.",
+            "id": "233",
+            "name": "EMPADMIN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in agricultural, forestry, and fishing.",
+            "id": "234",
+            "name": "EMPAGRIC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in arts, entertainment and recreation.",
+            "id": "235",
+            "name": "EMPARTS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in construction.",
+            "id": "236",
+            "name": "EMPCONST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in educational services.",
+            "id": "237",
+            "name": "EMPEDU",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in management of companies and enterprises",
+            "id": "238",
+            "name": "EMPEXEC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in finance, insurance, and real estate.",
+            "id": "239",
+            "name": "EMPFIRE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in accommodation and food services.",
+            "id": "240",
+            "name": "EMPFOOD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in health care and social assistance.",
+            "id": "241",
+            "name": "EMPHCSP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people in this area who work from home.",
+            "id": "242",
+            "name": "EMPHOME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in information services.",
+            "id": "243",
+            "name": "EMPINFO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in manufacturing.",
+            "id": "244",
+            "name": "EMPMANUF",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed by the U.S. Government.",
+            "id": "245",
+            "name": "EMPMIL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in mining.",
+            "id": "246",
+            "name": "EMPMINE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in professional, scientific and technical services.",
+            "id": "247",
+            "name": "EMPPROF",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in public administration.",
+            "id": "248",
+            "name": "EMPPUBAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in real estate, rental and leasing.",
+            "id": "249",
+            "name": "EMPRE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in retail trade.",
+            "id": "250",
+            "name": "EMPRTRAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in the services industry.",
+            "id": "251",
+            "name": "EMPSRV",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in transportation and communications.",
+            "id": "252",
+            "name": "EMPTRANS",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in utilities.",
+            "id": "253",
+            "name": "EMPUTL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area with employment listed as  unclassified.",
+            "id": "254",
+            "name": "EMPUNCLA",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people in this area who are unemployed.",
+            "id": "255",
+            "name": "EMPUNEMP",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The number of people working in this area employed in wholesale trade.",
+            "id": "256",
+            "name": "EMPWTRAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total number of employed people working in the area.",
+            "id": "257",
+            "name": "EMPTOTAL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  The act of unlawfully threatening or attempting to injure another.  Index score (100=National Average)",
+            "id": "258",
+            "name": "COCRMCYASST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  The act of entering a building or other premises with the intent to commit theft. Index score (100=National Average)",
+            "id": "259",
+            "name": "COCRMCYBURG",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  The unlawful taking and removing of anothers personal property with the intent of permanently depriving the owner. Index score (100=National Average)",
+            "id": "260",
+            "name": "COCRMCYLARC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  Intentionally causing the death of another person without extreme provocation or legal justification. Index score (100=National Average)",
+            "id": "261",
+            "name": "COCRMCYMURD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records: Theft or attempted theft of a motor vehicle. Index score (100=National Average)",
+            "id": "262",
+            "name": "COCRMCYMVEH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records: Combined risks of rape, sexual assault, personal robbery, assault, purse snatching and pocket picking. Index score (100=National Average)",
+            "id": "263",
+            "name": "COCRMCYPERC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records: Combined risks of burglary, motor vehicle theft, or theft. Index score (100=National Average)",
+            "id": "264",
+            "name": "COCRMCYPROC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  Forced sexual intercourse. Index score (100=National Average)",
+            "id": "265",
+            "name": "COCRMCYRAPE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS, and TR level records:  The act of unlawfully taking the property of another by the use of violence or intimidation. Index score (100=National Average)",
+            "id": "266",
+            "name": "COCRMCYROBB",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI, PL, CS and TR level records:  A score that represents the combined risks of rape, murder, assault, robbery, burglary, larceny and vehicle theft compared to the national average of 100. A score of 200 indicates twice the national average total crime risk, while 50 indicates half the national risk. The different types of crime are given equal weight in this score.",
+            "id": "267",
+            "name": "COCRMCYTOTC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The act of unlawfully threatening or attempting to injure another.  Index score (100=National Average)",
+            "id": "268",
+            "name": "CRMCYASST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The act of entering a building or other premises with the intent to commit theft. Index score (100=National Average)",
+            "id": "269",
+            "name": "CRMCYBURG",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The unlawful taking and removing of another’s personal property with the intent of permanently depriving the owner. Index score (100=National Average)",
+            "id": "270",
+            "name": "CRMCYLARC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Intentionally causing the death of another person without extreme provocation or legal justification. Index score (100=National Average)",
+            "id": "271",
+            "name": "CRMCYMURD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Theft or attempted theft of a motor vehicle. Index score (100=National Average)",
+            "id": "272",
+            "name": "CRMCYMVEH",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Combined risks of rape, sexual assault, personal robbery, assault, purse snatching and pocket picking. Index score (100=National Average)",
+            "id": "273",
+            "name": "CRMCYPERC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Combined risks of burglary, motor vehicle theft, or theft. Index score (100=National Average)",
+            "id": "274",
+            "name": "CRMCYPROC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Forced sexual intercourse. Index score (100=National Average)",
+            "id": "275",
+            "name": "CRMCYRAPE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The act of unlawfully taking the property of another by the use of violence or intimidation. Index score (100=National Average)",
+            "id": "276",
+            "name": "CRMCYROBB",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A score that represents the combined risks of rape, murder, assault, robbery, burglary, larceny and vehicle theft compared to the national average of 100. A score of 200 indicates twice the national average total crime risk, while 50 indicates half the national risk. The different types of crime are given equal weight in this score.",
+            "id": "277",
+            "name": "CRMCYTOTC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Combined average annual rainfall and snowfall in inches.",
+            "id": "278",
+            "name": "PRECIPANN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average temperature (degrees Fahrenheit) in January.",
+            "id": "279",
+            "name": "TMPAVEJAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average temperature (degrees Fahrenheit) in July.",
+            "id": "280",
+            "name": "TMPAVEJUL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average maximum temperature (degrees Fahrenheit) in January.",
+            "id": "281",
+            "name": "TMPMAXJAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average maximum temperature (degrees Fahrenheit) in July.",
+            "id": "282",
+            "name": "TMPMAXJUL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average minimum temperature (degrees Fahrenheit) in January.",
+            "id": "283",
+            "name": "TMPMINJAN",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average minimum temperature (degrees Fahrenheit) in July.",
+            "id": "284",
+            "name": "TMPMINJUL",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total earthquake risk. Based on analysis of historical earthquake magnitudes and fault locations. Index score (100=National Average)",
+            "id": "285",
+            "name": "RSKCYQUAK",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total risk from various storm types (hurricanes, tornadoes, damaging hailstorms and damaging wind storms). Index score (100=National Average)",
+            "id": "286",
+            "name": "RSKCYRISK",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total risk of damaging hailstorms. Based on analysis of historical hail frequency and severity. Index score (100=National Average)",
+            "id": "287",
+            "name": "RSKCYHANX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total hurricane risk. Based on analysis of historical hurricane tracks and intensity. Index score (100=National Average)",
+            "id": "288",
+            "name": "RSKCYHUNX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total tornado risk. Based on analysis of historical tornado tracks and intensity. (100=National Average)",
+            "id": "289",
+            "name": "RSKCYTONX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The total risk of severe winds. Based on analysis of the frequency and severity of historical damaging windstorms, typically associated with thunderstorms. Index score (100=National Average)",
+            "id": "290",
+            "name": "RSKCYWINX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A score that represents the relative air quality by combining indices of Ozone, Carbon Monoxide, Lead, Nitrogen Oxide, and Particulate matter and comparing to the national average of 100. A score of 200 indicates twice the presence of air pollutants than the national average, while 50 indicates half the presence. The different types of pollution are given equal weight in this score.",
+            "id": "291",
+            "name": "AIRX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "An invisible gas that irritates and impairs breathing. Index score (100=National Average).",
+            "id": "292",
+            "name": "OZONE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A colorless, odorless, highly poisonous gas formed by the incomplete combustion of carbon or a carbonaceous material, such as gasoline. Index score (100=National Average)",
+            "id": "293",
+            "name": "CARBMONO",
+            "type": "Attribute"
+          },
+          {
+            "descr": "A metallic element used in products like solder and paint. Leads  presence in the air may be particularly harmful to the health of infants and children. Index score (100=National Average)",
+            "id": "294",
+            "name": "LEAD",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Poisonous brown gases, often found in auto exhaust fumes. It is a primary contributor to smog. Index score (100=National Average)",
+            "id": "295",
+            "name": "NO2",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Fine particles of pollutants which tend to reduce visibility and invade the lungs deeply. Index score (100=National Average)",
+            "id": "296",
+            "name": "PM10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records:  Closest airport with more than 10,000 boardings annually (as of March 2013).",
+            "id": "297",
+            "name": "AIRPORT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records:  Distance to closest airport with more than 10,000 boardings annually.  Calculated from the geographic centroid of the Census Zip Area (CZA).",
+            "id": "298",
+            "name": "AIRPORTDIST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Closest major city with a population of greater than 500,000.",
+            "id": "299",
+            "name": "CITY500_CLOSEST_NAME",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records: Closest accredited 2-year public college (as of December 2011).",
+            "id": "300",
+            "name": "JC",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records: Distance to closest 2-year public college. Calculated from the geographic centroid of the Census Zip Area (CZA).",
+            "id": "301",
+            "name": "JCDIST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records:  Closest accredited 4-year public college (as of October 2011).",
+            "id": "302",
+            "name": "FOURYR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records:  Distance to closest 4-year public college.  Calculated from the geographic centroid of the Census Zip Area (CZA).",
+            "id": "303",
+            "name": "FOURYRDIST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records: Closest sports team. Leagues included are: The National Football League, The National Basketball Association, The National Hockey League, The Womens National Basketball Association and Major League Baseball and Minor League Baseball teams",
+            "id": "304",
+            "name": "TEAM",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI level records: Distance to closest major sports team. Calculated from the geographic centroid of the Census Zip Area (CZA).",
+            "id": "305",
+            "name": "TEAMDIST",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average property tax amount for the area.",
+            "id": "306",
+            "name": "AVG_PROP_TAX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Year used in determining average property tax.",
+            "id": "307",
+            "name": "AVG_PROP_TAX_YEAR",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of properties used in determining average property tax.",
+            "id": "308",
+            "name": "AVG_PROP_TAX_YEAR_COUNT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "The reported sales tax rate for the area. Additional local taxes may apply (see SALESTAXTYPE).",
+            "id": "309",
+            "name": "SALESTAXRATE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Indicates whether the sales tax rate is likely to include all local taxes. PL = Place level sales tax. CO ,= County level sales tax (additional local taxes may apply) ST ,= County or state level sales tax (additional local taxes may apply)",
+            "id": "310",
+            "name": "SALESTAXTYPE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Gross rent estimate for a studio apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service.",
+            "id": "311",
+            "name": "STUDIO_COUNTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Localized index to show expected local pricing variations for studio apartments.",
+            "id": "312",
+            "name": "STUDIOINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Gross rent estimate for a one bedroom apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service",
+            "id": "313",
+            "name": "ONE_BED_COUNTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Localized index to show expected local pricing variations for a one bedroom dwelling.",
+            "id": "314",
+            "name": "ONE_BEDINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Gross rent estimate for a two bedroom apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service.",
+            "id": "315",
+            "name": "TWO_BED_COUNTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Localized index to show expected local pricing variations for a two bedroom dwelling.",
+            "id": "316",
+            "name": "TWO_BEDINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Gross rent estimate for a three bedroom apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service.",
+            "id": "317",
+            "name": "THREE_BED_COUNTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Localized index to show expected local pricing variations for a three bedroom dwelling.",
+            "id": "318",
+            "name": "THREE_BEDINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Gross rent estimate for a four bedroom apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service.",
+            "id": "319",
+            "name": "FOUR_BED_COUNTY",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Localized index to show expected local pricing variations for a four bedroom dwelling.",
+            "id": "320",
+            "name": "FOUR_BEDINDEX",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of Asian and Pacific Island speaking households in 2000.",
+            "id": "321",
+            "name": "LANGASIAN_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of English speaking households in 2000.",
+            "id": "322",
+            "name": "LANGENG_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of European speaking households in 2000.",
+            "id": "323",
+            "name": "LANGEURO_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households speaking a language classified as Other in 2000.",
+            "id": "324",
+            "name": "LANGOTHER_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of Spanish speaking households in 2000.",
+            "id": "325",
+            "name": "LANGSPAN_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 1990, whose race was White.",
+            "id": "326",
+            "name": "RACEWHITE_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 1990, whose race was Asian.",
+            "id": "327",
+            "name": "RACEASIAN_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 1990, whose race was Black.",
+            "id": "328",
+            "name": "RACEBLACK_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 1990, whose race was Hispanic.",
+            "id": "329",
+            "name": "RACEHISP_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 1990, whose race was listed as Other.",
+            "id": "330",
+            "name": "RACEOTHER_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was White.",
+            "id": "331",
+            "name": "RACEWHITE_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race wss American Indian, Eskimo, or Aleut.",
+            "id": "332",
+            "name": "RACEAMERIND_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was Asian.",
+            "id": "333",
+            "name": "RACEASIAN_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was Black.",
+            "id": "334",
+            "name": "RACEBLACK_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was Hawaiian/Pacific Islander.",
+            "id": "335",
+            "name": "RACEHAWAI_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was of multiple types.",
+            "id": "336",
+            "name": "RACEMULTI_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living within the area in 2000, whose race was listed as Other.",
+            "id": "337",
+            "name": "RACEOTHER_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area in 1990.",
+            "id": "338",
+            "name": "HHD_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of households in the area in 2000.",
+            "id": "339",
+            "name": "HHD_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Average size of area households in number of people in 2000.",
+            "id": "340",
+            "name": "HHDAVESZ_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of students enrolled in grades 9-12 in 1990.",
+            "id": "341",
+            "name": "NINE_TO_12_1990",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in households in 2000. People not living in households are classified as living in group quarters (which include correctional facilities, nursing facilities, college dormitories, military barracks, group homes, homeless shelters, etc.)",
+            "id": "342",
+            "name": "HHPOP_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of students enrolled in grades 9-12 in 2000.",
+            "id": "343",
+            "name": "NINE_TO_12_2000",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 1990: Number of people enrolled in grade 9 or below.",
+            "id": "344",
+            "name": "EDUAGELT9_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 1990: Number of people who achieved a highschool education.",
+            "id": "345",
+            "name": "EDUHSCH_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 1990: Number of people who achieved some college education.",
+            "id": "346",
+            "name": "EDUSCOLL_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 1990:  Total population by education.",
+            "id": "347",
+            "name": "EDUTOTALPOP_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 1990: Number of people who achieved a college education.",
+            "id": "348",
+            "name": "EDUCOLL_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved an 8th grade education.",
+            "id": "349",
+            "name": "EDUAGELT9_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved a highschool education.",
+            "id": "350",
+            "name": "EDUHSCH_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved some college education.",
+            "id": "351",
+            "name": "EDUSCOLL_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved a college education.",
+            "id": "352",
+            "name": "EDUCOLL_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved an Associates Degree.",
+            "id": "353",
+            "name": "EDUASSOC_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved a Bachelors Degree.",
+            "id": "354",
+            "name": "EDUBACH_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000: Number of people who achieved an Advanced Degree.",
+            "id": "355",
+            "name": "EDUDEGREE_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Education attainment from Census 2000:  Total population by education.",
+            "id": "356",
+            "name": "EDUTOTALPOP_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 1990: Number of students enrolled in pre-kindergarten.",
+            "id": "357",
+            "name": "ENROLLPREK_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 1990: Number of students enrolled in elementary school.",
+            "id": "358",
+            "name": "ENROLLELEM_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 1990: Number of people enrolled in college.",
+            "id": "359",
+            "name": "ENROLLCOLL_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "number of people enrolled in school in 1990.",
+            "id": "360",
+            "name": "ENROLLTOTAL_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 2000: Number of students enrolled in pre-kindergarten.",
+            "id": "361",
+            "name": "ENROLLPREK_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 2000: Number of students enrolled in elementary school.",
+            "id": "362",
+            "name": "ENROLLELEM_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 2000: Number of students enrolled in highschool.",
+            "id": "363",
+            "name": "ENROLLHSCH_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Educational Enrollment from Census 2000: Number of people enrolled in college.",
+            "id": "364",
+            "name": "ENROLLCOLL_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total number of people enrolled in school in 2000.",
+            "id": "365",
+            "name": "ENROLLTOTAL_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area in 1990.",
+            "id": "366",
+            "name": "POP_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in group quarters (institutional and non-institutional) in 2000.",
+            "id": "367",
+            "name": "POPGQ_90",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area in 2000.",
+            "id": "368",
+            "name": "POP_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of females living within the area in 2000.",
+            "id": "369",
+            "name": "POPFEMALE_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of males living within the area in 2000.",
+            "id": "370",
+            "name": "POPMALE_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people available for work in 2000.",
+            "id": "371",
+            "name": "LBF_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who were members of the U.S. Armed Forces (people on active duty with the United States Army, Air Force, Navy, Marine Corps, or Coast Guard) in 2000.",
+            "id": "372",
+            "name": "LBFAF_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people who had jobs or were seeking a job, were at least 16 years old, not serving in the military and were not institutionalized in 2000.",
+            "id": "373",
+            "name": "LBFCIV_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people in the civilian noninstitutional population classified as either employed or unemployed. in 2000.",
+            "id": "374",
+            "name": "LBFEMP_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Total number of people who could be employed in 2000.",
+            "id": "375",
+            "name": "LBFWF_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people employed by the U.S. Government in 2000.",
+            "id": "376",
+            "name": "EMPMIL_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in correctional facilities in 2000.",
+            "id": "377",
+            "name": "POPCORR_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in institutional facilities in 2000.",
+            "id": "378",
+            "name": "POPINST_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in non-institutional facilities in 2000.",
+            "id": "379",
+            "name": "POPNONINST_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in nursing facilities in 2000.",
+            "id": "380",
+            "name": "POPNURSHM_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in other institutionalized facilities in 2000.",
+            "id": "381",
+            "name": "POPOTHERINST_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in other non-institutionalized facilities in 2000.",
+            "id": "382",
+            "name": "POPOTHERNONINST_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people living in the area in 2010.",
+            "id": "383",
+            "name": "POP_10",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Number of people within the area living in group quarters (institutional and non-institutional) in 2000.",
+            "id": "384",
+            "name": "POPGQ_00",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI and CO level records: Median residential home sales price for four recent quarters.  For each new year, the period covered will be the four previous quarters. Based on actual sales collected from Assessor’s offices.  All included sales are arms length transactions greater than $25,000 representing single family and multi-family (2 – 4) residential sales.  Note:  This field is only available for approximately 1,200 counties nationally.",
+            "id": "385",
+            "name": "MEDSALEPRICE",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI and CO level records: Home sales count for four recent quarters.  For each new year, the period covered will be the four previous quarters. Based on actual sales collected from Assessor’s offices.  All included sales are arms length transactions greater than $25,000 representing single family and multi-family (2 û 4) residential sales.  Note:  This field is only available for approximately 1,200 counties nationally.",
+            "id": "386",
+            "name": "SALECOUNT",
+            "type": "Attribute"
+          },
+          {
+            "descr": "Only included for ZI and CO level records: Average residential home sales price for four recent quarters.  For each new year, the period covered will be the four previous quarters. Based on actual sales collected from Assessor’s offices.  All included sales are arms length transactions greater than $25,000 representing single family and multi-family (2 to 4) residential sales.  Note:  This field is only available for approximately 1,200 counties nationally.",
+            "id": "387",
+            "name": "AVGSALEPRICE",
+            "type": "Attribute"
+          }
+        ],
+        "name": "Lookup",
+        "notice": "",
+        "resource": "Attribute",
+        "service": "Community",
+        "version": "2.0"
+      },
+      "xml_record": "387"
+    },
+    "status": {
+      "code": "0",
+      "long_description": "Your request was successfully processed.",
+      "short_description": "Success"
+    },
+    "xmlns": "http://www.ist_prod.obiwebservices.com/xmlns/community/1.0"
+  }
+}
