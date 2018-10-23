@@ -5,32 +5,39 @@
   <meta charset="utf-8">
   <title>NJ Real Estate Trends</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- Bootstrap core CSS -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link href="{{ url_for('static', filename= 'css/styles.css') }}" rel="stylesheet">
+  <!-- Use with app.py later -->
+  <!-- <link href="{{ url_for('static', filename= 'css/style.css') }}" rel="stylesheet"> -->
+  <!-- Comment later -->
+  <link href="../static/css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="{{ url_for('templates', filename='index.html') }}">New Jersey Real Estate Trends
-            <img class="nav-ufo" src="{{ url_for('static', filename='images/ufo.svg') }}">
+        <div class="navbar-header" style="text-align:right">
+            <a class="navbar-brand">New Jersey Real Estate Trends
+          <!-- <a class="navbar-brand" style="text-align:right" href="{{ url_for('templates', filename='index.html') }}">New Jersey Real Estate Trends -->
+          <!-- <img class="nav-ufo" src="{{ url_for('static', filename='images/re-pic.svg') }}"> -->
+            <img class="nav-ufo" src="../static/images/re-pic.svg">
           </a>
         </div>
       </div>
     </nav>
     <div class="hero text-center">
-      <h1>New Jersey Real Estate Trends</h1>
-      <p>Where to live ? This is a question !</p>
+      <h1><b>  </b></h1>
+      <h1><b>Where to live ? This is a question !</b></h1>
     </div>
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-4">
+        <div class="col-md-2">
           <aside class="filters">
             <div class="panel panel-default">
-              <div class="panel-heading">Weight Your Search Factors<br>from 1 [not important] to 10 [the most important]</div>
+              <div class="panel-heading"><center><b>Weight Your Search Factors<br>from 1 [not important]<br> to 10 [the most important]</b></center></div>
               <div class="panel-body">
                 <div class="form-group">
                   <ul class="list-group" id="filters">
@@ -69,7 +76,7 @@
             </div>
           </aside>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10">
           <div id="table-area" class="">
             <!-- <h1 class="text-center loader" id="loader">Loading...</h1> -->
             <table id="ufo-table" class="table table-striped">
