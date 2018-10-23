@@ -47,9 +47,10 @@ body {
 .nav-ufo {
   position: absolute;
   bottom: 5px;
-  left: 150px;
+  left: 310px;
   width: 35px;
-  color: white;
+  /* color: white; */
+  color:darkred;
 }
 
 /* Adding styles to the aside and filter form */
@@ -69,7 +70,8 @@ select {
   display: block;
   width: 100%;
   padding: 8px;
-  color: #8e979f;
+  /* color: #8e979f; */
+  color:darkred;
   outline: none;
 }
 
@@ -94,11 +96,16 @@ select {
 /* The styles for the parallax */
 .hero {
   position: relative;
-  height: 550px;
+  height: 650px;
   padding: 20px;
   margin: 0;
-  background: black;
-  background-image: url("../images/nasa.jpg");
+  /* background: black; */
+  color:darkblue;
+  /* color: whitesmoke; */
+  /* color: black; */
+  background-image: url("../images/nj-re-pic.jpg");
+  background-image: url("../images/old-nj-pic.jpeg");
+  /* background-image: url("../images/nj-edit.jpeg"); */
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -163,7 +170,8 @@ select {
   #table-area tr td:first-child {
     font-size: 1.8em;
     font-weight: bold;
-    background: #1b3146;
+    /* background: #1b3146; */
+    background: darkcyan;
   }
 
   #table-area tr td:last-child {
