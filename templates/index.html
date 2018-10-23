@@ -39,36 +39,43 @@
               <div class="panel-body">
                 <div class="form-group">
                   <ul class="list-group" id="filters">
+
+                      <form action="/output_page" method="post">
+
                       <!-- House Prices (?), Schools (?) , Crime Rates (?), Public Transport (?),  Restaurants (?) -->
                     <li class="filter list-group-item">
                       <label for="house_price">House Price</label>
-                      <input class="form-control" id="house_price" type="text" placeholder="$300,000">
+                      <input class="form-control" id="house_price" type="text" placeholder="$300,000" name="price">
                     </li>
                     <li class="filter list-group-item">
                       <label for="prop_taxes">Property Taxes Limit</label>
-                      <input class="form-control" id="prop_taxes" type="text" placeholder="$10,000">
+                      <input class="form-control" id="prop_taxes" type="text" placeholder="$10,000" name="tax">
                     </li>
                     <li class="filter list-group-item">
                       <label for="school">Good Schools</label>
-                      <input class="form-control" id="school" type="text" placeholder="7">
+                      <input class="form-control" id="school" type="text" placeholder="7" name="schools">
                     </li>
                     <li class="filter list-group-item">
                       <label for="crime_rate">Crime Rate Low</label>
-                      <input class="form-control" id="crime_rate" type="text" placeholder="10">
+                      <input class="form-control" id="crime_rate" type="text" placeholder="10" name="crime">
                     </li>
                     <li class="filter list-group-item">
                       <label for="public_transport">Public Transportation Availability</label>
-                      <input class="form-control" id="public_transport" type="text" placeholder="1">
+                      <input class="form-control" id="public_transport" type="text" placeholder="1" name="transportation">
                     </li>
                     <li class="filter list-group-item">
                         <label for="restaurants">Good Restaurants</label>
-                        <input class="form-control" id="restaurants" type="text" placeholder="5">
+                        <input class="form-control" id="restaurants" type="text" placeholder="5" name="eats">
                     </li>
+                    
                     <li class="filter list-group-item">
                         <label for="parks">Parks</label>
-                        <input class="form-control" id="parks" type="text" placeholder="3">
+                        <input class="form-control" id="parks" type="text" placeholder="3" name="parks">
                     </li>
+                    <input type="submit" name= "form" value="Submit" />
+                  </form>
                   </ul>
+                  
                 </div>
               </div>
             </div>
