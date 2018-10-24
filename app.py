@@ -53,9 +53,23 @@ def Out():
     crime = request.form['crime']
     transportation = request.form['transportation']
     eats = request.form['eats']
+    income = request.form['income']
+    shop = request.form['shop']
+
     
     
-    return render_template('results.html') 
+    # return render_template('results.html')
+    return """
+    parks: %s
+    price: %s
+    tax: %s 
+    schools: %s
+    crime: %s
+    transportation: %s
+    eats: %s
+    income: %s
+    shop: %s
+    """ % (parks, price, tax, schools, crime, transportation, eats, income, shop)
     # put on pre line% (eats)
 
 
