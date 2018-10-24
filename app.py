@@ -34,6 +34,7 @@ def njre():
     # convert the pulled data into a json to render
     prefZips_dict  = {"zipcode":prefZips_zip, 'rating':prefZips_rat, 'Lat': prefZips_lat, 'Long': prefZips_long}
     return jsonify(prefZips_dict)
+    # return jsonify("returning something back")
 
 
 # create a index route
@@ -52,7 +53,10 @@ def Out():
     crime = request.form['crime']
     transportation = request.form['transportation']
     eats = request.form['eats']
-    return """<h1>parks: %s price: %s tax: %s schools: %s crime: %s transport: %s eats: %s <br/> </h1> <a href="/">Back Home</a>""" % (parks, price, tax, schools, crime, transportation, eats)
+    
+    
+    return render_template('results.html') 
+    # put on pre line% (eats)
 
 
 if __name__ == "__main__":
