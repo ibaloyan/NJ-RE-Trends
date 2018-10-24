@@ -30,7 +30,7 @@ d3.json("/NJRE").then((json) => {
         // each value as a table cell (td)
         Object.values(dataRow).forEach((val) => {
         var cell = row.append("td");
-        cell.text(val);
+        cell.html("<h1>" + val + "</h1>");
         });
     });
     };
