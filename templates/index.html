@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <!-- Use with app.py later -->
   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
-  <!-- Comment later -->
   <!-- <link href="../static/css/style.css" rel="stylesheet"> -->
 </head>
 
@@ -29,97 +28,112 @@
 
     <div class="hero text-center" style="color:whitesmoke">
       <h1><b>  </b></h1>
-      <h1><b>Where to live ? This is a Question !</b></h1>
+      <h1><b>Where to live in New Jersey ? <br>That is the Question !</b></h1>
     </div>
+
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-2">
+
+          <div class="col-md-12">
+                 <h1 class="text-center loader" id="loader"><b>Where to live in New Jersey ? <br>That is the Question !</b></h1>
+          </div>      
+
+        <div class="col-md-5">
           <aside class="filters">
             <div class="panel panel-default">
-              <div class="panel-heading"><center><b>Weight Your Search Factors<br>from 1 [not important]<br> to 10 [the most important]</b></center></div>
+             <div class="panel-heading" style="font-size: 18px;"><center><b>Enter Your Weight Factors</b></center></div>
               <div class="panel-body">
                 <div class="form-group">
                   <ul class="list-group" id="filters">
 
                       <form action="/output_page" method="post">
 
-                      <!-- House Prices (?), Schools (?) , Crime Rates (?), Public Transport (?),  Restaurants (?) -->
-                    <li class="filter list-group-item">
-                      <label for="house_price">House Price</label>
+                    <li class="filter list-group-item" style="font-size: 18px;">
+                      <label style="font-size: 16px;" for="house_price">Average House Price</label>
                       <input class="form-control" id="house_price" type="text" placeholder="$300,000" name="price">
                     </li>
                     <li class="filter list-group-item">
-                      <label for="prop_taxes">Property Taxes Limit</label>
-                      <input class="form-control" id="prop_taxes" type="text" placeholder="$10,000" name="tax">
+                      <label style="font-size: 16px;" for="income">Average Family Income</label>
+                      <input class="form-control" id="income" type="text" placeholder="$60,000" name="income">
                     </li>
+                    <div class="panel-heading" style="font-size: 18px;"><center><b>from 1 (never mind) to 10 (the most important)</b></center></div>
                     <li class="filter list-group-item">
-                      <label for="school">Good Schools</label>
-                      <input class="form-control" id="school" type="text" placeholder="7" name="schools">
+                      <label style="font-size: 16px;" for="prop_taxes">Reasonable Property Taxes</label>
+                      <input class="form-control" id="prop_taxes" type="text" placeholder="2" name="tax">
                     </li>
+                   
                     <li class="filter list-group-item">
-                      <label for="crime_rate">Crime Rate Low</label>
-                      <input class="form-control" id="crime_rate" type="text" placeholder="10" name="crime">
+                      <label style="font-size: 16px;" for="schools">School Ratings</label>
+                      <input class="form-control" id="schools" type="text" placeholder="7" name="schools">
                     </li>
-                    <li class="filter list-group-item">
-                      <label for="public_transport">Public Transportation Availability</label>
-                      <input class="form-control" id="public_transport" type="text" placeholder="1" name="transportation">
-                    </li>
-                    <li class="filter list-group-item">
-                        <label for="restaurants">Good Restaurants</label>
-                        <input class="form-control" id="restaurants" type="text" placeholder="5" name="eats">
-                    </li>
-                    
-                    <li class="filter list-group-item">
-                        <label for="parks">Parks</label>
-                        <input class="form-control" id="parks" type="text" placeholder="3" name="parks">
-                    </li>
-                    <li class="filter list-group-item">
-                    <input type="submit" name= "form" value="Submit" />
-                    </li>
-                  </form>
-                  </ul>
-                  
+                  </div>
                 </div>
               </div>
             </div>
           </aside>
+
+        <div class="col-md-5">
+            <aside class="filters">
+                <div class="panel panel-default">
+                 <!-- <div class="panel-heading" style="font-size: 18px;"><center><b>Enter Your Weight Factors</b></center></div> -->
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <ul class="list-group" id="filters">
+    
+                          <form action="/output_page" method="post">
+
+
+            <li class="filter list-group-item">
+              <label style="font-size: 16px;" for="public_transport">NJ Transit Proximity</label>
+              <input class="form-control" id="public_transport" type="text" placeholder="1" name="transportation">
+            </li>
+            <li class="filter list-group-item">
+              <label style="font-size: 16px;" for="crime_rate">Low Crime Rate</label>
+              <input class="form-control" id="crime_rate" type="text" placeholder="10" name="crime">
+            </li>
+
+            <li class="filter list-group-item">
+                <label style="font-size: 16px;" for="restaurants">Restaurants</label>
+                <input class="form-control" id="restaurants" type="text" placeholder="5" name="eats">
+            </li>
+
+            <li class="filter list-group-item">
+                <label style="font-size: 16px;" for="shopping">Shopping</label>
+                <input class="form-control" id="shopping" type="text" placeholder="3" name="shop">
+            </li>
+            
+            <li class="filter list-group-item">
+                <label style="font-size: 16px;" for="parks">Outdoor Activities</label>
+                <input class="form-control" id="parks" type="text" placeholder="3" name="parks">
+            </li>
+            <!-- <li class="filter list-group-item">
+            <input style="font-size: 16px;" type="submit" name= "form" value="Submit" />
+            </li> -->
+                          </form>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </aside>    
         </div>
 
-        <div class="col-md-10">
-          <div id="table-area" class="">
-            <h1 class="text-center loader" id="loader"><b>Where to live ? This is a Question !</b></h1>
-            <table id="ufo-table" class="table table-striped">
-              <!-- <thead>
-                <tr>
-                  <th class="table-head">Date</th>
-                  <th class="table-head">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
-                  <th class="table-head">Duration</th>
-                  <th class="table-head">Comments</th>
-                </tr>
-              </thead> -->
-              <tbody></tbody>
-            </table>
-          </div>
-        </div>
-      </div>
+
+<div class="col-md-2" style="text-align: center">
+    <aside class="filters"></aside>
+    <li class="filter list-group-item">
+        <input style="font-size: 16px;" type="submit" name= "form" value="Submit" />
+        </li>
+      </form>
+      </ul>
+    </aside>
     </div>
-<!-- 
-<div id="plot1"></div>
-<div id="plot2"></div>
-<div id="plot3"></div>
-<div id="plot4"></div>
+          
+  </div> <!-- margin-->
+        </div> <!-- class="container" -->
 
-<canvas id="bar-chart-grouped" width="600" height="200"></canvas>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<script src="{{ url_for('static', filename='js/plot1.js') }}"></script>
-<script src="{{ url_for('static', filename='js/plot2.js') }}"></script>
-<script src="{{ url_for('static', filename='js/plots3.js') }}"></script>
-<script src="{{ url_for('static', filename='js/plot4.js') }}"></script> -->
-
-</div>
+  
+  </div> <!-- class="wrapper" -->
 
 <footer>
 <div class="container">
