@@ -57,24 +57,51 @@ def index():
 @app.route('/output_page', methods=['POST'])
 def Out():
     
+    # if values are not populated, it means that they are not important for the user
     parks = request.form['parks']
+    if parks == "":
+        parks = 10
     price = request.form['price']
+    if price == "":
+        price = 0
     tax = request.form['tax']
+    if tax == "":
+        tax = 10
     schools = request.form['schools']
+    if schools == "":
+        schools = 10
     crime = request.form['crime']
+    if crime == "":
+        crime = 10
     transportation = request.form['transportation']
+    if transportation == "":
+        transportation = 10
     eats = request.form['eats']
+    if eats == "":
+        eats = 10
     income = request.form['income']
+    if income == "":
+        income = 0
     shop = request.form['shop']
+    if shop == "":
+        shop = 10
 
-    
+    # Prepare collected values 
     
     parks = (int(parks)/10)*max_vals['recreation']
     tax = (int(tax)/10)*max_vals['avg_prop_tax']
     transportation = (int(transportation)/10)*max_vals['trwpublic']
     eats = (int(eats)/10)*max_vals['eating-drinking']
     shop = (int(shop)/10)*max_vals['shopping']
+
+    ## Convert money to digits only for price and income 
+    # price = '$1,425,232' -> price ='1425232'
+
+    price = price.replace("$","").replace(",","")
+    income = income.replace("$","").replace(",","")
+
     input_list = [int(parks), int(eats), int(shop), int(income), int(price), int(transportation), int(tax)]
+    
     input_predict = [input_list]
     predicted = model.predict(input_predict)
 
@@ -86,7 +113,6 @@ def Out():
     for zip in zips:
         zips_dict['zips'].append("0" + str(zip))
 
-    
     # return render_template('results.html')
     return jsonify(zips_dict)
     # return render_template('results.html', **zips_dict)
