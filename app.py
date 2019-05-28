@@ -11,7 +11,7 @@ from sklearn.cluster import KMeans
 # import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
+from cluster.Cluster import RealestateClustering
 # import the function to return the ML'd data here
 
 # init the Flask
@@ -41,7 +41,7 @@ def njre():
     # prefZips_rat = prefZips["rating"]
     # prefZips_lat = prefZips["Lat"]
     # prefZips_long = prefZips["Long"]
-    
+
     # # convert the pulled data into a json to render
     # prefZips_dict  = {"zipcode":prefZips_zip, 'rating':prefZips_rat, 'Lat': prefZips_lat, 'Long': prefZips_long}
     return render_template('results.html')
@@ -51,12 +51,12 @@ def njre():
 # create a index route
 @app.route('/')
 def index():
-    # Return the template 
+    # Return the template
     return render_template('index.html')
 
 @app.route('/output_page', methods=['POST'])
 def Out():
-    
+
     # if values are not populated, it means that they are not important for the user
     parks = request.form['parks']
     if parks == "":
@@ -86,32 +86,34 @@ def Out():
     if shop == "":
         shop = 10
 
-    # Prepare collected values 
-    
+    # Prepare collected values
+
     parks = (int(parks)/10)*max_vals['recreation']
     tax = (int(tax)/10)*max_vals['avg_prop_tax']
     transportation = (int(transportation)/10)*max_vals['trwpublic']
     eats = (int(eats)/10)*max_vals['eating-drinking']
     shop = (int(shop)/10)*max_vals['shopping']
 
-    ## Convert money to digits only for price and income 
+    ## Convert money to digits only for price and income
     # price = '$1,425,232' -> price ='1425232'
 
     price = price.replace("$","").replace(",","")
     income = income.replace("$","").replace(",","")
 
-    input_list = [int(parks), int(eats), int(shop), int(income), int(price), int(transportation), int(tax)]
-    
-    input_predict = [input_list]
-    predicted = model.predict(input_predict)
+    input_dict = {'parks': int(parks), 'eats': int(eats), 'shop': int(shop), 'income': int(income), 'price': int(price), 'transportation': int(transportation), 'tax': int(tax)}
 
-    zip_cluster_vals = pd.DataFrame([ins, labels],).transpose().values
-    zip_cluster = pd.DataFrame(zip_cluster_vals, columns=['zip_code', 'label'])
-    zips_predicted = zip_cluster.loc[zip_cluster['label'] == predicted[0]]
-    zips = zips_predicted['zip_code'].values
-    zips_dict = {'zips': []}
-    for zip in zips:
-        zips_dict['zips'].append("0" + str(zip))
+    zips_dict = RealestateClustering(input_dict)
+
+    #input_predict = [input_list]
+    #predicted = model.predict(input_predict)
+
+    #zip_cluster_vals = pd.DataFrame([ins, labels],).transpose().values
+    #zip_cluster = pd.DataFrame(zip_cluster_vals, columns=['zip_code', 'label'])
+    #zips_predicted = zip_cluster.loc[zip_cluster['label'] == predicted[0]]
+    #zips = zips_predicted['zip_code'].values
+    #zips_dict = {'zips': []}
+    #for zip in zips:
+    #    zips_dict['zips'].append("0" + str(zip))
 
     # return render_template('results.html')
     return jsonify(zips_dict)
@@ -119,7 +121,7 @@ def Out():
     # """
     # parks: %s
     # price: %s
-    # tax: %s 
+    # tax: %s
     # schools: %s
     # crime: %s
     # transportation: %s
