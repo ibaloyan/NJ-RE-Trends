@@ -1,0 +1,6 @@
+# ignore swap files
+*.swap
+#ignore notebook checkpoint files and pycache files
+.ipynb_checkpoints/
+__pycache__/
+

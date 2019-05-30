@@ -86,13 +86,6 @@ def Out():
     if shop == "":
         shop = 10
 
-    # Prepare collected values
-
-    parks = (int(parks)/10)*max_vals['recreation']
-    tax = (int(tax)/10)*max_vals['avg_prop_tax']
-    transportation = (int(transportation)/10)*max_vals['trwpublic']
-    eats = (int(eats)/10)*max_vals['eating-drinking']
-    shop = (int(shop)/10)*max_vals['shopping']
 
     ## Convert money to digits only for price and income
     # price = '$1,425,232' -> price ='1425232'
@@ -103,7 +96,6 @@ def Out():
     input_dict = {'parks': int(parks), 'eats': int(eats), 'shop': int(shop), 'income': int(income), 'price': int(price), 'transportation': int(transportation), 'tax': int(tax)}
 
     zips_dict = RealestateClustering(input_dict)
-
     #input_predict = [input_list]
     #predicted = model.predict(input_predict)
 
