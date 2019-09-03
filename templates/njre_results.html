@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NJ RE Results</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="static/js/njre_results.js"></script>
+
+    
+</head>
+<body>
+    
+        <div class='container'>
+            <div class='row'>
+               <h1>NJ zipcodes which work best for you: </h1> 
+               
+            </div>
+           
+            <div class='row'>
+                <table id="results-table" class="table table-striped">
+                    <tbody></tbody>
+                </table>
+            </div>
+           
+            <div class='row'>
+                <a href="{{ url_for('index') }}">Start Your Search Again</a>
+            </div>
+           
+        </div>
+           
+
+</body>
+</html>

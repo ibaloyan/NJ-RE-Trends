@@ -1,28 +1,32 @@
 # import dependencies
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 from flask import Flask, render_template, jsonify, request, redirect
 from flask_pymongo import PyMongo
+
 import pickle
 max_vals = pickle.load( open( "max_vals.p", "rb" ) )
 model = pickle.load( open( "model.p", "rb" ) )
 ins = pickle.load( open( "ins.p", "rb" ) )
 labels = model.labels_
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-# import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
+
+# import the function to return the ML'd data 
 from cluster.Cluster import RealestateClustering
-# import the function to return the ML'd data here
+
 
 # init the Flask
 app = Flask(__name__)
 
-#
-@app.route("/NJRE")
-def njre():
+@app.route("/NJRE_results")
+def njre_results():
     # create a link to whatever the zipcodes data source will be under here
     # Will most likely be AWS link
-    # app.config["MONGO_URI"] = 'mongodb://localhost:27017/NJRE_test'
+    ###### app.config["MONGO_URI"] = 'mongodb://localhost:27017/NJRE_test'
     # mongo = PyMongo(app)
     # db = mongo.db
 
@@ -44,10 +48,8 @@ def njre():
 
     # # convert the pulled data into a json to render
     # prefZips_dict  = {"zipcode":prefZips_zip, 'rating':prefZips_rat, 'Lat': prefZips_lat, 'Long': prefZips_long}
-    return render_template('results.html')
-    # return jsonify("returning something back")
-
-
+    return render_template('njre_results.html')
+ 
 # create a index route
 @app.route('/')
 def index():
@@ -55,7 +57,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/output_page', methods=['POST'])
-def Out():
+def output_zipcodes():
 
     # if values are not populated, it means that they are not important for the user
     parks = request.form['parks']
@@ -85,7 +87,6 @@ def Out():
     shop = request.form['shop']
     if shop == "":
         shop = 10
-
 
     ## Convert money to digits only for price and income
     # price = '$1,425,232' -> price ='1425232'
